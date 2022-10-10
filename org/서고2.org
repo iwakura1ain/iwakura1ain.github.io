@@ -7,7 +7,7 @@
 ---
 layout: post #jekyll layout
 title: "서양고전문학2 노트" #title 
-date:   2022-09-15 18:59:05 +0900
+date:   2022-10-10 18:59:05 +0900
 categories: #specify post category (space seperated string)
 tags: #specify post tags (space seperated string)
 #variable: val -> use as {{page.variable}}
