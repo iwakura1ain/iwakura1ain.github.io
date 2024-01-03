@@ -1,5 +1,0 @@
-* Python no newline after print
-#+begin_src python
-  print("blah", end="")
-#+end_src
-

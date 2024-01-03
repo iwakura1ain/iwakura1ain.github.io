@@ -1,0 +1,17 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Esbuild Error When Building React Container" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * esbuild error when building react container
+: happens bc node_modules folder gets copied into container
+- delete note_modules folder or volume mapping in docker 
+

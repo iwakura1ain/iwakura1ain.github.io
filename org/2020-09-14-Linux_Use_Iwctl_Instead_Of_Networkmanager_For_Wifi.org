@@ -1,0 +1,23 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Linux Use Iwctl Instead Of Networkmanager For Wifi" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * linux use iwctl instead of networkmanager for wifi
+: stop/disable NetworkManager.service
+: start/enable iwd.service
+#+begin_src bash
+  sudo iwctl
+  station wlan0 scan # scan networks
+  station wlan0 get-networks # get scan list
+  station wlan0 connect [SSID] [PW]
+#+end_src
+

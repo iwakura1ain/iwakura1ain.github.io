@@ -1,0 +1,26 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Python Requests Download Raw File" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Python requests download raw file
+#+begin_src python
+  import requests
+  import shutil
+
+  r = requests.get(settings.STATICMAP_URL.format(**data), stream=True)
+  if r.status_code == 200:
+      with open(path, 'wb') as f:
+          r.raw.decode_content = True
+          shutil.copyfileobj(r.raw, f)   
+#+end_src
+
+

@@ -1,0 +1,20 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Lib32-libgit2 Update Conflict Problems" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * lib32-libgit2 update conflict problems
+: just removed all of them :P 
+#+begin_src bash
+  yay -Rs lib32-rav1e lib32-libgit2
+#+end_src
+
+

@@ -1,5 +1,0 @@
-* Docker connect to container
-#+begin_src bash
-  docker exec -it [container id] /bin/bash
-#+end_src
-

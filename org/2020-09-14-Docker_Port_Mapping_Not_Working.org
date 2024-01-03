@@ -1,0 +1,33 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Docker Port Mapping Not Working" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Docker port mapping not working
+- try building with no cache
+#+begin_src 
+  docker compose build --no-cache
+#+end_src
+- try deleting docker image then rebuilding
+#+begin_src bash
+  docker image ls
+  docker image rm [image-name] -f
+#+end_src
+- try pruning system then rebuilding
+#+begin_src bash
+  docker system prune
+  docker build [dockerfile-directory]
+#+end_src
+- try running with run instead of docker compose up
+#+begin_src bash
+  docker run -p "1000:1000" [image-name]
+#+end_src
+  

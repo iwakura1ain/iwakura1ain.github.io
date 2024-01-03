@@ -1,0 +1,19 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Connect To Arduino From Virtualbox" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Connect to arduino from virtualbox
+- select serial ports in virtualbox
+- add COM device with port mode == host device
+- modify permission for serial device 
+- add serial device path
+

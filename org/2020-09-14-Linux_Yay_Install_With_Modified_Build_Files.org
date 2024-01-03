@@ -1,0 +1,19 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Linux Yay Install With Modified Build Files" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * linux yay install with modified build files
+: build checks failed while installing aur/lib32-libgit2 -> so comment out checks in build file
+#+begin_src bash
+  yay --editmenu -S [PACKAGE]
+#+end_src
+

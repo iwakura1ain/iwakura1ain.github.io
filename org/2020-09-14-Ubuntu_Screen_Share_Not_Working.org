@@ -1,0 +1,24 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Ubuntu Screen Share Not Working" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * ubuntu screen share not working
+: use xorg, not wayland
+#+begin_src bash
+  echo $XDG_SESSION_TYPE
+  sudo nano /etc/gdm3/custom.conf
+#+end_src
+
+#+begin_src 
+  WaylandEnable=false
+#+end_src
+

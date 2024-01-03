@@ -1,5 +1,0 @@
-* linux login logs
-#+begin_src bash
-  last
-#+end_src
-

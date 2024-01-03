@@ -1,6 +1,0 @@
-* Connect to arduino from virtualbox
-- select serial ports in virtualbox
-- add COM device with port mode == host device
-- modify permission for serial device 
-- add serial device path
-

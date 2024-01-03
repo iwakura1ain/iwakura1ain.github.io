@@ -1,8 +1,0 @@
-* Emacs ein open in browser
-1. click open in browser
-2. copy token  from below
-#+begin_src bash
-  jupyter list
-#+end_src
-3. login from browser 
-

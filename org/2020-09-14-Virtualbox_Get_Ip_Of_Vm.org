@@ -1,0 +1,21 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Virtualbox Get Ip Of Vm" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * virtualbox get ip of vm
+: either one of these two
+: requires virtualbox addon package
+#+begin_src bash
+  vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/0/V4/IP"
+  vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/1/V4/IP"
+#+end_src
+

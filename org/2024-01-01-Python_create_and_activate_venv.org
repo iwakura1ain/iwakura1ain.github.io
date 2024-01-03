@@ -1,8 +1,0 @@
-* Python create and activate venv
-#+begin_src 
-  python -m venv .venv
-  source .venv/bin/activate
-#+end_src
-- Alternatively on emacs
-  : M-x pyvenv-create
-

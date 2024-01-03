@@ -1,0 +1,19 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Recharts Clickable Graph" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Recharts clickable graph
+: add onClick() to graph component
+#+begin_src javascript
+  <Bar onclick={(e) => callback(e)} />
+#+end_src
+

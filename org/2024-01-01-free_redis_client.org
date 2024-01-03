@@ -1,6 +1,0 @@
-* free redis client
-https://github.com/qishibo/AnotherRedisDesktopManager
-#+begin_src bash
-  yay -S another-redis-desktop-manager-bin
-#+end_src
-

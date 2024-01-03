@@ -1,8 +1,0 @@
-* create js project
-#+begin_src bash
-  npm init
-  cd [project_name]
-  npm create vite@latest
-  npm run dev 
-#+end_src
-

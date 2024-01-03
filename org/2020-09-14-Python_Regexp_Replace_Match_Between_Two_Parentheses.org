@@ -1,0 +1,21 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Python Regexp Replace Match Between Two Parentheses" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Python regexp replace match between two parentheses
+#+begin_src python
+  import re
+  # match everything between "[" and "]", note the escape characters 
+  desc = re.sub("\[(.*?)\]", "", info_val["desc"])
+#+end_src
+
+

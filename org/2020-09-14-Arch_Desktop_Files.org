@@ -1,0 +1,17 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Arch Desktop Files" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * arch desktop files
+These files usually reside in /usr/share/applications/ or /usr/local/share/applications/ for applications installed system-wide,
+or ~/.local/share/applications/ for user-specific applications. User entries take precedence over system entries.
+

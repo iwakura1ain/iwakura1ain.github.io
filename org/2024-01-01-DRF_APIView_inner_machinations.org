@@ -1,9 +1,0 @@
-* DRF APIView inner machinations
-1. user requests HTTP method endpoint
-2. sent to HTTP method handler inside implemented generic APIView (eg. get(), post(), ...)
-3. handler calls apropriate method from mixed-in mixin class (eg. list(), destroy(), update(), ...)
-4. inside mixin class method  get_queryset() -> filter_queryset() to get current model
-5. paginates response with paginate_queryset()
-6. gets serializer with get_serializer() -> serializes model
-7. serialized data -> returns Response()
-

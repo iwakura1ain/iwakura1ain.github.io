@@ -1,4 +1,0 @@
-* esbuild error when building react container
-: happens bc node_modules folder gets copied into container
-- delete note_modules folder or volume mapping in docker 
-

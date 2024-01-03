@@ -1,0 +1,58 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Jupyter Notebook Use Venv" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * Jupyter notebook use venv
+https://janakiev.com/blog/jupyter-virtual-envs/
+
+- First, make sure your environment is activated.
+- Next, install ipykernel which provides the IPython kernel for Jupyter.
+#+begin_src 
+  pip install --user ipykernel
+#+end_src
+
+- Next you can add your virtual environment to Jupyter by typing:
+#+begin_src 
+  python -m ipykernel install --user --name=myenv
+#+end_src
+: Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv
+
+- In this folder you will find a kernel.json file which should look the following way if you did everything correctly:
+#+begin_src json
+  {
+      "argv": [
+          "/home/user/anaconda3/envs/myenv/bin/python",
+          "-m",
+          "ipykernel_launcher",
+          "-f",
+          "{connection_file}"
+      ],
+      "display_name": "myenv",
+      "language": "python"
+  }
+#+end_src
+
+- After you deleted your virtual environment, you’ll want to remove it also from Jupyter. Let’s first see which kernels are available. You can list them with:
+#+begin_src 
+  jupyter kernelspec list
+#+end_src
+: Available kernels:
+:   myenv      /home/user/.local/share/jupyter/kernels/myenv
+:   python3    /usr/local/share/jupyter/kernels/python3
+
+- Now, to uninstall the kernel, you can type:
+#+begin_src 
+  jupyter kernelspec uninstall myenv
+#+end_src
+
+- Optionally on Emacs ein, select which kernel to use on main screen. 
+

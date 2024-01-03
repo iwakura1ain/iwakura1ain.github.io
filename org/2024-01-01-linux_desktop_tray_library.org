@@ -1,3 +1,0 @@
-* linux desktop tray library
-GTK + AppIndicator3
-

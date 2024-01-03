@@ -1,0 +1,36 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Docker Compose Wait Until Container Ready" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * docker compose wait until container ready
+- configure depends_on
+#+begin_src yaml
+  depends_on:
+    "service name"
+#+end_src
+
+- configure depends_on + healthcheck
+#+begin_src yaml
+  depends_on:
+    "service name":
+      condition: "service_started" | "service_healthy" | "service_completed_successfully"
+
+  ...
+  service:
+    healthcheck:
+      test: curl --fail http://localhost:6379 || exit 1
+      interval: 5s
+      retries: 5
+      start_period: 5s
+      timeout: 10s
+#+end_src  
+

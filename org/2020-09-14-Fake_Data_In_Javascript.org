@@ -1,0 +1,29 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+BEGIN_EXPORT html
+                ---
+                layout: post #jekyll layout
+                title: "Fake Data In Javascript" #title 
+                date:   2020-09-14 15:20:05 +0900                 
+                ---
+                #+END_EXPORT
+                * fake data in javascript
+: use faker library
+#+begin_src bash
+  npm i faker
+#+end_src
+
+#+begin_src javascript
+  import faker from "faker";
+
+  const bigList = [...Array(5000)].map(() => ({
+      name: faker.name.findName(),
+      email: faker.internet.email(),
+      avatar: faker.internet.avatar()
+  }));
+#+end_src
+
