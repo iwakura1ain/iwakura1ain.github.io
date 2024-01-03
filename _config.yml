@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            1ain
 tagline:          'Present day, present time.'
 description:      "Welcome to iwakura1ain's personal blog. For more info about me, please visit the about page."
-url:              "http://iwakura1ain.github.io"
+url:              "https://iwakura1ain.github.io"
 baseurl:          ""
 
 paginate:         5
