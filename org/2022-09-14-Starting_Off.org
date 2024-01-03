@@ -14,17 +14,12 @@ tags: #specify post tags (space seperated string)
 ---
 #+END_EXPORT
 
-* Introduction
-This will be my blog where I post about things that I've learned,
-places where I've been, and stuff that I have done. I hope to add to this blog regularly and document my life.
-
 * About this Blog
-This blog is primarily running *Jekyll* integrated with *Emacs* and *org-mode*. I've also added some special helper functions to my emacs configs that lets me publish org files into markdown, which is then processed by jekyll.
-
+This blog is primarily running *Jekyll* integrated with *Emacs* and *org-mode*.
+I've also added some helper functions that lets me publish org files into markdown, which is then processed by jekyll.
 
 The following is a modified elisp function that publishes org files into markdown for processing by jekyll.
-
-#+BEGIN_SRC <elisp>
+#+BEGIN_SRC lisp
 ;;org blogging
 (defun org-md-publish-to-md (plist filename org-export-publishing-directory)
   "Publish an org file to Markdown.

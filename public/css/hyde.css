@@ -12,12 +12,13 @@
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/hyde.
  */
-
+ 
 
 /*
  * Contents
  *
  * Global resets
+ * Custom CSS
  * Sidebar
  * Container
  * Reverse layout
@@ -45,6 +46,19 @@ html {
   }
 }
 
+/* custom CSS */
+.post h1 {
+  font-size: 170%;
+}
+
+.post h1:first-child { 
+  font-size: 200%;
+}
+
+.divider {
+  font-weight: bold;
+  margin: 10px;
+}
 
 /*
  * Sidebar
