@@ -16,8 +16,8 @@ baseurl:          ""
 paginate:         5
 paginate_path: '/page:num'
 
-# Custom vars
-# version:          2.1.0
+#Custom vars
+version:          2.1.0
 
-# github:
-#   repo:           https://github.com/iwakura1ain/
+github:
+  repo:           https://github.com/iwakura1ain/
