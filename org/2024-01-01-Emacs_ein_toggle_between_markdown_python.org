@@ -1,0 +1,6 @@
+* Emacs ein toggle between markdown python
+: custom aliased to ein-toggle
+#+begin_src 
+  ein:worksheet-toggle-cell-type
+#+end_src
+

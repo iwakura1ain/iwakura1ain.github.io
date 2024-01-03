@@ -1,0 +1,6 @@
+* linux yay install with modified build files
+: build checks failed while installing aur/lib32-libgit2 -> so comment out checks in build file
+#+begin_src bash
+  yay --editmenu -S [PACKAGE]
+#+end_src
+

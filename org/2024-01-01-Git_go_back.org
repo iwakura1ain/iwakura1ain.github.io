@@ -1,0 +1,20 @@
+* Git go back
+- Hard reset
+  : force reset 1 commit behind head
+  : will overwrite changes made
+  : always have commit log open and check after every reset
+#+begin_src bash
+  git reset --hard HEAD~
+#+end_src
+- Soft reset
+  : force reset 1 commit behind head
+  : will not overwrite changes made
+#+begin_src bash
+  git reset --soft HEAD~
+#+end_src
+- revert to commit id
+  : somehow doesnt revert merges? 
+#+begin_src bash
+  git revert [commit-ID]
+#+end_src
+

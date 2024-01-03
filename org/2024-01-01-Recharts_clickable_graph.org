@@ -1,0 +1,6 @@
+* Recharts clickable graph
+: add onClick() to graph component
+#+begin_src javascript
+  <Bar onclick={(e) => callback(e)} />
+#+end_src
+

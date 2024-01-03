@@ -1,0 +1,5 @@
+* start js project
+#+begin_src bash
+npm create vite@latest   
+#+end_src
+

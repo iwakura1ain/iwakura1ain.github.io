@@ -1,0 +1,13 @@
+
+# Table of Contents
+
+1.  [arch desktop files](#orgb806f6b)
+
+
+<a id="orgb806f6b"></a>
+
+# arch desktop files
+
+These files usually reside in *usr/share/applications* or *usr/local/share/applications* for applications installed system-wide,
+or ~/.local/share/applications/ for user-specific applications. User entries take precedence over system entries.
+

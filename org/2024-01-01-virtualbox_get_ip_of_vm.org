@@ -1,0 +1,8 @@
+* virtualbox get ip of vm
+: either one of these two
+: requires virtualbox addon package
+#+begin_src bash
+  vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/0/V4/IP"
+  vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/1/V4/IP"
+#+end_src
+

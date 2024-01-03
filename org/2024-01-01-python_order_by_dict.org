@@ -1,0 +1,15 @@
+* python order by dict
+#+begin_src python 
+  a = ['cd', 'ef', 'ab']
+  sorted(a)
+  print(a)	# ['ab', 'cd', 'ef']
+#+end_src
+
+#+begin_src python
+  s = "adfe"
+
+  s1 = s.sort()			# wrong
+  s2 = sorted(s)			# ['a','d','e','f'] 
+  s3 = ''.join(sorted(s))		# "adef"
+#+end_src
+

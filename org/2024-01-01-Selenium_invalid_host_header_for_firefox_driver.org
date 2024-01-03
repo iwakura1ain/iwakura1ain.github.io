@@ -1,0 +1,8 @@
+* Selenium invalid host header for firefox driver
+: add this line to /etc/hosts
+#+begin_src bash
+  #/etc/hosts
+  127.0.0.1    localhost
+#+end_src
+
+

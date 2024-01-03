@@ -1,0 +1,5 @@
+* Search serial devices for path
+#+begin_src bash
+ ls -l /dev/serial/by-id/  
+#+end_src
+

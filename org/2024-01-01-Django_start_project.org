@@ -1,0 +1,5 @@
+* Django start project
+#+begin_src bash
+  django-admin startproject mysite
+#+end_src
+

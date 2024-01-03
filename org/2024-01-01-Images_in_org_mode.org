@@ -1,0 +1,7 @@
+* Images in org mode
+: wrap with double square brackets
+#+begin_src 
+  [ [ url or image path ] ]
+#+end_src
+
+

@@ -1,0 +1,3 @@
+* Pip install packages globally
+- Use the -H flag to pip install a package globally instead of locally, e.g. sudo -H pip install package-name.
+

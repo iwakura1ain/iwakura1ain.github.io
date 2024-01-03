@@ -1,0 +1,8 @@
+* Python regexp replace match between two parentheses
+#+begin_src python
+  import re
+  # match everything between "[" and "]", note the escape characters 
+  desc = re.sub("\[(.*?)\]", "", info_val["desc"])
+#+end_src
+
+

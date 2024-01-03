@@ -1,0 +1,7 @@
+* arduino ide permission denied for COM port
+: for COM port ttyACM0
+: changes permission periodically
+#+begin_src bash
+  sudo chmod 777 /dev/ttyACM0 
+#+end_src
+

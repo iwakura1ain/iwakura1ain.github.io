@@ -1,0 +1,32 @@
+
+# Table of Contents
+
+1.  [python read and write json from file](#orgd37730a)
+
+
+<a id="orgd37730a"></a>
+
+# python read and write json from file
+
+    import json
+    
+      # JSON file
+      f = open ('data.json', "r")
+    
+      # Reading from file
+      data = json.loads(f.read())
+    
+      # Iterating through the json list
+      for i in data['emp_details']:
+          print(i)
+    
+      # Closing file
+      f.close()
+    
+      # Serializing json
+    json_object = json.dumps(dictionary, indent=4)
+    
+    # Writing to sample.json
+    with open("sample.json", "w") as outfile:
+        outfile.write(json_object)
+

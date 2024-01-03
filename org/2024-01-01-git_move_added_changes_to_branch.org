@@ -1,0 +1,6 @@
+* git move added changes to branch
+: add changes first
+ #+begin_src bash
+  git checkout -b [branchname]
+#+end_src
+

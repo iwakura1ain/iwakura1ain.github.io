@@ -1,0 +1,6 @@
+* Cors error when opening html files on localhost
+: run http server inside directory 
+#+begin_src bash
+  python -m http.server
+#+end_src
+
