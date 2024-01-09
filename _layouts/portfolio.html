@@ -1,0 +1,45 @@
+---
+layout: default
+title: My Projects
+---
+
+<div class="post">
+  <div>
+    {{ content }}
+  </div>
+  <hr>
+  {% comment %}
+  The code below dynamically generates a sidebar nav of pages with
+  `layout: project` in the front-matter. See readme for usage.
+  {% endcomment %}
+
+  <div class="portfolio-list">
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+    {% if node.layout == "project" %}
+    <div class="portfolio-wrapper">
+      {% if node.image != null %}
+      <img class="portfolio-img" src="{{ node.image }}">
+      {% else %}
+      <img class="portfolio-img" src="/public/nope.jpg">
+      {% endif %}
+      <div class="portfolio-item">
+      <h2 class="post-title">
+	<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+	<hr>
+      </h2>
+      <p>{{ node.desc }}</p>
+      <span class="portfolio-categories">
+	{% assign categories = node.categories | split: ' ' %}
+	{% for tag in categories %}
+	<p class="tag">{{ tag }}</p>
+	{% endfor %}
+      </span>
+    </div>
+    </div>
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+  </div>
+</div>

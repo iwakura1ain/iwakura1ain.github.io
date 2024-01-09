@@ -1,18 +1,36 @@
+<!-- Scripts -->
+
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.url }}">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
+
+      <div class="sidebar-title">
+	<h1>
+          <a href="{{ site.url }}">
+            {{ site.title }}
+          </a>
+	</h1>
+	<div class="language-selection">
+	  <button onclick="toggleLanguage('kor')">
+	    <img title="한국어" class="language-icon" src="/public/kor.svg">
+	  </button>
+	  <button onclick="toggleLanguage('eng')">
+	    <img title="English" class="language-icon" src="/public/eng.svg">
+	  </button>	
+	</div>
+      </div>
+      
+      <p class="lead eng">{{ site.description }}</p>
+      <p class="lead kor">"안녕하세요.  매일매일 새로운 것을 배우는 개발자 안창언입니다. "</p>
     </div>
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Posts</a>
 
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
+      <a class="kor sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about-kor">About</a>
+      <a class="eng sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about-eng">About</a>
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/portfolio">My Projects</a>
       
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -28,7 +46,7 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">My GitHub</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 

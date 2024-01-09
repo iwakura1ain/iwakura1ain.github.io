@@ -261,6 +261,8 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  height: 200px;
+  margin-right: 20px;
 }
 
 
@@ -343,6 +345,8 @@ tbody tr:nth-child(odd) th {
 .post-title {
   margin-top: 0;
 }
+
+
 
 /* Meta data line below post title */
 .post-date {

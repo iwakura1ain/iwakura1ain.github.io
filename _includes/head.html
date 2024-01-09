@@ -22,8 +22,39 @@
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+   const getLanguage = () => {
+       const language = sessionStorage.getItem("language")
+       if (language === null) {
+	   sessionStorage.setItem("language", "kor")
+	   return "kor"
+       }
+
+       return language
+   }
+
+   const changeVisibility = (language) => {
+       let [eng, kor] = language == "kor" ? ["none", "block"] : ["block", "none"]
+       let engElements = [...document.getElementsByClassName("eng")]
+       let korElements = [...document.getElementsByClassName("kor")]
+
+       engElements.map((element) => element.style.display = eng)
+       korElements.map((element) => element.style.display = kor)
+
+   }
+   
+   const toggleLanguage = (language) => {
+       if (language == getLanguage())
+	   return
+
+       changeVisibility(language)
+       
+       sessionStorage.setItem("language", language)
+   }
+  </script>
 </head>
