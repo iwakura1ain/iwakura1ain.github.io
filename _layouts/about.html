@@ -5,17 +5,29 @@
 
   <body class="theme-base-09" onload="changeVisibility(getLanguage())">
     {% include sidebar.html %}
-    <div class="content container">
+    <div class="content container fade-in">
 
       
 
       <p class="message">
 	Hello stranger, welcome to my tiny little corner on the internet. 
       </p>
-      
+      <span class="portfolio-categories" id="stack">
+	{% assign stack = 'python js html css react django flask linux docker SQL' | split: ' ' %}
+	{% for tag in stack %}
+	<p class="tag">{{ tag }}</p>
+	{% endfor %}
+      </span>
+
       <div id="about-content">
 	{{ content }}
       </div>
+
+      <script>
+       var stackList = document.getElementById("stack")
+       var parent = document.getElementById("stack-location")
+       parent.appendChild(stackList)
+      </script>
       
     </div>
 

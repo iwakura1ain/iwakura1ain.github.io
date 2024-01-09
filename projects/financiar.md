@@ -2,7 +2,7 @@
 layout: project
 title: Financiar
 desc: 백테스팅을 위한 주식 시각화/가상투자 서비스 
-categories: html css js react django drf redis docker docker-compose
+categories: html css js react django drf selenium redis docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
 ---
 
