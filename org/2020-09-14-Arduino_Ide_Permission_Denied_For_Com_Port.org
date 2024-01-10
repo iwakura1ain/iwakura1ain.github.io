@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Arduino Ide Permission Denied For Com Port" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Arduino Ide Permission Denied For Com Port
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * arduino ide permission denied for COM port
 : for COM port ttyACM0
 : changes permission periodically

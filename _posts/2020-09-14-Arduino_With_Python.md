@@ -1,7 +1,9 @@
 ---
-layout: post #jekyll layout
-title: "Arduino With Python" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Arduino With Python"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Arduino with python
@@ -19,18 +21,22 @@ Select the appropriate board and port on the IDE.
 Press Upload.
 After the upload is finished, you won’t notice any activity on the Arduino. To control it, you still need a program that can communicate with the board through the serial connection. To work with the Firmata protocol in Python, you’ll need the pyFirmata package, which you can install with pip:
 
-    pip install pyfirmata  
+{% highlight bash %}
+pip install pyfirmata  
+{% endhighlight %}
 
 After the installation finishes, you can run an equivalent Blink application using Python and Firmata:
 
-    import pyfirmata
-    import time
-    
-    board = pyfirmata.Arduino('/dev/ttyACM0')
-    
-    while True:
-        board.digital[13].write(1)
-        time.sleep(1)
-        board.digital[13].write(0)
-        time.sleep(1)
+{% highlight python %}
+import pyfirmata
+import time
 
+board = pyfirmata.Arduino('/dev/ttyACM0')
+
+while True:
+    board.digital[13].write(1)
+    time.sleep(1)
+    board.digital[13].write(0)
+    time.sleep(1)
+
+{% endhighlight %}

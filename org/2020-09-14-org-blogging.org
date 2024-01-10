@@ -1,18 +1,6 @@
-#+STARTUP: showall indent
-#+OPTIONS: toc:nil
-#+OPTIONS: org-export-with-smart-quotes
-#+OPTIONS: org-export-with-emphasize
-#+OPTIONS: org-export-with-timestamps
-#+BEGIN_EXPORT html
----
-layout: post #jekyll layout
-title: "Starting Off" #title 
-date:   2022-09-14 15:20:05 +0900
-categories: #specify post category (space seperated string)
-tags: #specify post tags (space seperated string)
-#variable: val -> use as {{page.variable}}
----
-#+END_EXPORT
+#+layout: post #jekyll layout
+#+title: "Starting Off" #title 
+#+date:   2022-09-14 15:20:05 +0900
 
 * About this Blog
 This blog is primarily running *Jekyll* integrated with *Emacs* and *org-mode*.
@@ -67,5 +55,4 @@ Return output file name."
           ("blog-export" :components ("org-blog-export" "org-blog-static-export"))
           ))
 #+end_src
-
 

@@ -1,10 +1,13 @@
 ---
-layout: post #jekyll layout
-title: "Python No Newline After Print" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Python No Newline After Print"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Python no newline after print
 
-    print("blah", end="")
-
+{% highlight python %}
+print("blah", end="")
+{% endhighlight %}

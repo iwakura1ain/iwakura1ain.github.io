@@ -1,45 +1,46 @@
 ---
-layout: post #jekyll layout
-title: "Api Architectures" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Api Architectures"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   API Architectures
 
 
-# SOAP
+## SOAP
 
 -   XML based enterprise architecture
 -   secure/reliable -> used in financial sector
 -   verbose and heavy
 
 
-# REST
+## REST
 
 -   Resource based for web servers
 -   synchronous/latency data is difficult
 
 
-# GraphQL
+## GraphQL
 
 -   query language for reduced network load
 -   query only what you want, no over/under fetching
 
 
-# gRPC
+## gRPC
 
 -   High performance for microservices
 -   low web browser support
 
 
-# WebSocket
+## WebSocket
 
 -   Bi-directional low latency data exchange
 -   open socket may be unnessesary overhead
 
 
-# WebHook
+## WebHook
 
 -   asynchronous for event driven application
 -   response receiving might fail -> must implement safety measures
-

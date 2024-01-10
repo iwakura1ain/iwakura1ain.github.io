@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Drf Apiview Inner Machinations" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Drf Apiview Inner Machinations
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * DRF APIView inner machinations
 1. user requests HTTP method endpoint
 2. sent to HTTP method handler inside implemented generic APIView (eg. get(), post(), ...)

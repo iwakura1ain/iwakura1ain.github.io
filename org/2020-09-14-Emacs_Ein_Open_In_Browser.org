@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Emacs Ein Open In Browser" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Emacs Ein Open In Browser
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * Emacs ein open in browser
 1. click open in browser
 2. copy token  from below

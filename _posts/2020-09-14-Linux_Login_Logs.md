@@ -1,10 +1,13 @@
 ---
-layout: post #jekyll layout
-title: "Linux Login Logs" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Linux Login Logs"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   linux login logs
 
-    last
-
+{% highlight bash %}
+last
+{% endhighlight %}

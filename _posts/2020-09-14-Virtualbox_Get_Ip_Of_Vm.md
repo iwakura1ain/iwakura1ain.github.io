@@ -1,7 +1,9 @@
 ---
-layout: post #jekyll layout
-title: "Virtualbox Get Ip Of Vm" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Virtualbox Get Ip Of Vm"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   virtualbox get ip of vm
@@ -9,6 +11,7 @@ date:   2020-09-14 15:20:05 +0900
     either one of these two
     requires virtualbox addon package
 
-    vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/0/V4/IP"
-    vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/1/V4/IP"
-
+{% highlight bash %}
+vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/0/V4/IP"
+vboxmanage guestproperty get [VM-NAME] "/VirtualBox/GuestInfo/Net/1/V4/IP"
+{% endhighlight %}

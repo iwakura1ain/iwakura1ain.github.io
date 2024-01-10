@@ -1,7 +1,9 @@
 ---
-layout: post #jekyll layout
-title: "Git Go Back" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Git Go Back"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Git go back
@@ -12,18 +14,23 @@ date:   2020-09-14 15:20:05 +0900
         will overwrite changes made
         always have commit log open and check after every reset
 
-    git reset --hard HEAD~
+{% highlight bash %}
+git reset --hard HEAD~
+{% endhighlight %}
 
 -   Soft reset
     
         force reset 1 commit behind head
         will not overwrite changes made
 
-    git reset --soft HEAD~
+{% highlight bash %}
+git reset --soft HEAD~
+{% endhighlight %}
 
 -   revert to commit id
     
         somehow doesnt revert merges?
 
-    git revert [commit-ID]
-
+{% highlight bash %}
+git revert [commit-ID]
+{% endhighlight %}

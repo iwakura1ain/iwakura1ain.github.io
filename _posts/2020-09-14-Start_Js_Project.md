@@ -1,10 +1,13 @@
 ---
-layout: post #jekyll layout
-title: "Start Js Project" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Start Js Project"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   start js project
 
-    npm create vite@latest   
-
+{% highlight bash %}
+npm create vite@latest   
+{% endhighlight %}

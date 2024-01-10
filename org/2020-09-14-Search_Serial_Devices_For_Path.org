@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Search Serial Devices For Path" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Search Serial Devices For Path
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * Search serial devices for path
 #+begin_src bash
  ls -l /dev/serial/by-id/  

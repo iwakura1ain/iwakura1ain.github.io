@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Images In Org Mode" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Images In Org Mode
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * Images in org mode
 : wrap with double square brackets
 #+begin_src 

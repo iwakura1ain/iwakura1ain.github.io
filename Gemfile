@@ -36,8 +36,11 @@ gem "webrick", "~> 1.7"
 
 gem "hyde", "~> 0.0.4"
 
+gem 'jekyll-org', '>= 1.1.0'
 
 
 
 
 
+
+gem "org-ruby", "~> 0.9.12"

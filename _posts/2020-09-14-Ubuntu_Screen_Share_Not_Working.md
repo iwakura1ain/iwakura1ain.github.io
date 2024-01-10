@@ -1,15 +1,20 @@
 ---
-layout: post #jekyll layout
-title: "Ubuntu Screen Share Not Working" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Ubuntu Screen Share Not Working"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   ubuntu screen share not working
 
     use xorg, not wayland
 
-    echo $XDG_SESSION_TYPE
-    sudo nano /etc/gdm3/custom.conf
+{% highlight bash %}
+echo $XDG_SESSION_TYPE
+sudo nano /etc/gdm3/custom.conf
+{% endhighlight %}
 
-    WaylandEnable=false
-
+{% highlight nil %}
+WaylandEnable=false
+{% endhighlight %}

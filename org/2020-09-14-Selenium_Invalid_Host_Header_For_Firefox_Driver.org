@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Selenium Invalid Host Header For Firefox Driver" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Selenium Invalid Host Header For Firefox Driver
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * Selenium invalid host header for firefox driver
 : add this line to /etc/hosts
 #+begin_src bash

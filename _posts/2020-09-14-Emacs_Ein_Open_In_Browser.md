@@ -1,7 +1,9 @@
 ---
-layout: post #jekyll layout
-title: "Emacs Ein Open In Browser" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Emacs Ein Open In Browser"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Emacs ein open in browser
@@ -9,7 +11,8 @@ date:   2020-09-14 15:20:05 +0900
 1.  click open in browser
 2.  copy token  from below
 
-    jupyter list
+{% highlight bash %}
+jupyter list
+{% endhighlight %}
 
 1.  login from browser
-

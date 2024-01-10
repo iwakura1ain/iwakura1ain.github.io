@@ -1,7 +1,9 @@
 ---
-layout: post #jekyll layout
-title: "Drf Apiview Inner Machinations" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Drf Apiview Inner Machinations"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   DRF APIView inner machinations
@@ -13,4 +15,3 @@ date:   2020-09-14 15:20:05 +0900
 5.  paginates response with paginate<sub>queryset</sub>()
 6.  gets serializer with get<sub>serializer</sub>() -> serializes model
 7.  serialized data -> returns Response()
-

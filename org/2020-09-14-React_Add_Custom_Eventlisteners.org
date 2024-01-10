@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "React Add Custom Eventlisteners" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: React Add Custom Eventlisteners
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * React add custom eventlisteners
 - add eventlistener using useEffect
 #+begin_src javascript

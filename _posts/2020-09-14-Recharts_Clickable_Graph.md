@@ -1,12 +1,15 @@
 ---
-layout: post #jekyll layout
-title: "Recharts Clickable Graph" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Recharts Clickable Graph"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Recharts clickable graph
 
     add onClick() to graph component
 
-    <Bar onclick={(e) => callback(e)} />
-
+{% highlight javascript %}
+<Bar onclick={(e) => callback(e)} />
+{% endhighlight %}

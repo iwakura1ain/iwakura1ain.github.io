@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Lib32-libgit2 Update Conflict Problems" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Lib32-libgit2 Update Conflict Problems
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * lib32-libgit2 update conflict problems
 : just removed all of them :P 
 #+begin_src bash

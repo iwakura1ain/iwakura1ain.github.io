@@ -4,13 +4,9 @@
                 #+OPTIONS: org-export-with-smart-quotes
                 #+OPTIONS: org-export-with-emphasize
                 #+OPTIONS: org-export-with-timestamps
-                #+BEGIN_EXPORT html
-                ---
-                layout: post #jekyll layout
-                title: "Recharts Clickable Graph" #title 
-                date:   2020-09-14 15:20:05 +0900                 
-                ---
-                #+END_EXPORT
+                #+layout: post
+                #+title: Recharts Clickable Graph
+                #+date: 2020-09-14 15:20:05 +0900                 
                 * Recharts clickable graph
 : add onClick() to graph component
 #+begin_src javascript

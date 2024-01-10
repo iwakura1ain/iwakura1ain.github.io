@@ -1,10 +1,13 @@
 ---
-layout: post #jekyll layout
-title: "Django Start Project" #title 
-date:   2020-09-14 15:20:05 +0900                 
+title: "Django Start Project"
+date: 2020-09-14 15:20:05 +0900
+layout: post
+categories: 
+tags: 
 ---
 
 -   Django start project
 
-    django-admin startproject mysite
-
+{% highlight bash %}
+django-admin startproject mysite
+{% endhighlight %}
