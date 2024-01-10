@@ -13,12 +13,12 @@ tagline:          'Present day, present time.'
 description:      "Welcome to iwakura1ain's personal blog. For more info about me, please visit the about page."
 
 # github
-# url:              "https://iwakura1ain.github.io"
-# baseurl:          "https://iwakura1ain.github.io"
+url:              "https://iwakura1ain.github.io"
+baseurl:          "https://iwakura1ain.github.io"
 
 # local
-url:              ""
-baseurl:          ""
+# url:              ""
+# baseurl:          ""
 
 
 

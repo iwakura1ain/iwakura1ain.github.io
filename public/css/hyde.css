@@ -51,6 +51,10 @@
  * Update the foundational and global aspects of the page.
  */
 
+img {
+  margin-bottom: 60px;
+}
+
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }

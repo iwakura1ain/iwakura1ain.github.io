@@ -3,6 +3,23 @@ layout: default
 ---
 
 <div class="page fade-in">
+  <span class="portfolio-categories" id="stack">
+    {% assign categories = page.categories | split: ' ' %}
+    {% for tag in categories %}
+    <p class="tag">{{ tag }}</p>
+    {% endfor %}
+  </span>
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
+  <script>
+   let target = document.getElementById("target")
+   let stack = document.getElementById("stack")
+   console.log("INPUT", target, stack)
+   target.appendChild(stack)
+  </script>
 </div>
+
+
+
+
+

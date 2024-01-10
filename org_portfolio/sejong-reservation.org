@@ -1,12 +1,23 @@
-#+STARTUP: inlineimages
-#+title: Sejong Reservation
-#+layout: project
-#+desc: 회의실 예약 시스템 
-#+categories: REST microservice flask mariadb vue github-actions docker docker-compose docker-swarm 
-#+repo: https://github.com/iwakura1ain/sejong-reservation
+#+OPTIONS: toc:nil
+#+OPTIONS: org-export-with-smart-quotes
+#+OPTIONS: org-export-with-emphasize
+#+OPTIONS: org-export-with-timestamps
+#+BEGIN_EXPORT html
+---
+title: Sejong Reservation
+layout: project
+desc: 회의실 예약 시스템 
+categories: REST microservice flask mariadb vue github-actions docker docker-compose docker-swarm 
+repo: https://github.com/iwakura1ain/sejong-reservation
+---
+#+END_EXPORT 
+
 
 * 개요
-*학교 내 회의실 예약을 위한 웹서비스*
+*학교 내 회의실 예약 위한 웹서비스*
+#+BEGIN_EXPORT html
+<span id="target"></span>
+#+END_EXPORT 
 ** 인원과 역할
 - *안창언* : 팀장, 시스템/스키마 설계, 백엔드, CI/CD
 - 한수현: 백엔드, 도큐멘테이션  

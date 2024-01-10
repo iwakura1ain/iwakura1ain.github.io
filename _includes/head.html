@@ -56,5 +56,17 @@
        
        sessionStorage.setItem("language", language)
    }
+
+   const fixImgPath = () => {
+       let imgs = Array.from(document.getElementsByTagName("img"))
+       
+       imgs.map((element) => {element.src = element.src.replace(document.location.href, "/public/images/");  console.log("REPLACED", element.src)})
+   }
+
+   function onLoadFunc() {
+       changeVisibility(getLanguage());
+       fixImgPath()
+   }
+   
   </script>
 </head>
