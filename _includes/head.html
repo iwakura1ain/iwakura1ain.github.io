@@ -60,12 +60,24 @@
    const fixImgPath = () => {
        let imgs = Array.from(document.getElementsByTagName("img"))
        
-       imgs.map((element) => {element.src = element.src.replace(document.location.href, "/public/images/");  console.log("REPLACED", element.src)})
+       imgs.map((element) => {
+	   if (!element.src.includes("/public/images/"))
+	       element.src = element.src.replace(document.location.href, "/public/images/");  
+       })
    }
 
+   const addBullets = () => {
+       let h2 = Array.from(document.getElementsByTagName("h2"))
+       h2.map((element) => {element.innerHTML = "&#8227" + "&nbsp;&nbsp;" + element.innerHTML})
+
+       let h3 = Array.from(document.getElementsByTagName("h3"))
+       h3.map((element) => {element.innerHTML = "&nbsp;&nbsp;" + "&#9702" + "&nbsp;&nbsp;" + element.innerHTML})
+   }
+   
    function onLoadFunc() {
        changeVisibility(getLanguage());
        fixImgPath()
+       addBullets()
    }
    
   </script>

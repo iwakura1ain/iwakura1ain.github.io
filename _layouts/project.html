@@ -9,14 +9,16 @@ layout: default
     <p class="tag">{{ tag }}</p>
     {% endfor %}
   </span>
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-  <script>
-   let target = document.getElementById("target")
-   let stack = document.getElementById("stack")
-   console.log("INPUT", target, stack)
-   target.appendChild(stack)
-  </script>
+  <div>
+    <h1 class="portfolio-title-icon">📙&nbsp;</h1>
+    <h1 class="theme-base-09 portfolio-title portfolio-title-icon">{{ page.title }}</h1>
+    <h1 class="portfolio-title-icon">&nbsp;📙</h1>
+  </div>
+    
+  <div class="portfolio-content">
+    {{ content }}
+  </div>
+  
 </div>
 
 

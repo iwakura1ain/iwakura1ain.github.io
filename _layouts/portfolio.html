@@ -20,15 +20,15 @@ title: My Projects
     {% if node.layout == "project" %}
     <div class="portfolio-wrapper">
       {% if node.image != null %}
-      <img class="portfolio-img" src="{{ node.image }}">
+      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/{{ node.image }}">
       {% else %}
-      <img class="portfolio-img" src="/public/nope.jpg">
+      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
       {% endif %}
       <div class="portfolio-item">
-      <h2 class="post-title">
+	<h4 class="theme-base-09 portfolio-list-title">
 	<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
 	<hr>
-      </h2>
+	</h4>
       <p>{{ node.desc }}</p>
       <span class="portfolio-categories">
 	{% assign categories = node.categories | split: ' ' %}

@@ -2,7 +2,7 @@
 title: Financiar
 layout: project
 desc: 백테스팅을 위한 주식 시각화/가상투자 서비스 
-categories: html css js react django drf selenium redis docker docker-compose
+categories: html css js react django drf pandas selenium redis docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
 ---
 
@@ -11,7 +11,7 @@ repo: https://github.com/iwakura1ain/Financiar
 
 **현재 주식 데이터 조회와 과거 데이터를 기반으로 모의투자를 하는 웹서비스**
 
-<span id="target"></span>
+{% include stack.html %}
 
 
 ## 인원과 역할
@@ -19,14 +19,13 @@ repo: https://github.com/iwakura1ain/Financiar
 -   **안창언**: 팀장, 시스템/스키마 설계, 프론트엔드, 백엔드
 -   한수현: 프론트엔드
 
-
-# 프로젝트
+ㅎ\* 프로젝트
 
 
 ## S&P500에 해당하는 주식 종목 검색, 조회
 
--   Yahoo Finance를 크롤링한 데이터를 기반
--   종목 이름별, 분야별 검색 가능
+-   Yahoo Finance를 **크롤링한 데이터를 기반**
+-   종목 이름별, 분야별 **검색 가능**
 
 ![img](./financiar-search.png)
 
@@ -40,7 +39,7 @@ repo: https://github.com/iwakura1ain/Financiar
 
 ## Redis를 사용한 데이터 캐싱 사용
 
--   크롤링한 데이터를 redis에 캐싱
+-   크롤링한 데이터를 **redis에 캐싱**
     ![img](./financiar-redis.png)
 
 

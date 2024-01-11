@@ -7,11 +7,6 @@ tags:
 ---
 
 
-# Table of Contents
-
-1.  [About this Blog](#org986368e)
-
-
 <a id="org986368e"></a>
 
 # About this Blog
