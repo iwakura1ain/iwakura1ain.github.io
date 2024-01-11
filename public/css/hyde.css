@@ -401,6 +401,28 @@ a.sidebar-nav-item:focus {
   width: 100%;
 }
 
+
+@media (max-width: 525px) {
+  .portfolio-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .portfolio-img {
+    display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .portfolio-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .portfolio-img {
+    display: none;
+  }
+}
+
+
 .portfolio-categories{
   display: flex;
   flex-flow:row wrap;
@@ -441,17 +463,4 @@ a.sidebar-nav-item:focus {
   margin-left: 30px;
   
   
-}
-
-@media (min-width: 48em) {
-  .portfolio-content img {
-    width: 40em;
-  }
-}
-
-
-@media (min-width: 64em) {
-  .portfolio-content img {
-    width: 50em;
-  }
 }
