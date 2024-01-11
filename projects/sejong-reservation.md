@@ -1,8 +1,9 @@
 ---
 title: Sejong Reservation
 layout: project
+type: web
 desc: 회의실 예약 시스템 
-categories: REST microservice flask mariadb vue github-actions docker docker-compose docker-swarm 
+categories: html css js vue microservice flask flask-restx mariadb github-actions docker docker-compose docker-swarm 
 repo: https://github.com/iwakura1ain/sejong-reservation
 ---
 
@@ -27,7 +28,7 @@ repo: https://github.com/iwakura1ain/sejong-reservation
 
 ## MSA 구조 기반의 시스템 설계
 
--   \*각 서비스간 REST\*로 통신
+-   **각 서비스간 REST** 로 통신
 -   **Docker Swarm** 로 서비스별 load balancing/recovery 가능해야 함
 -   서비스별 데이터 액세스는 분리, 그러나 **데이터 스키마는 중앙 관리**
 

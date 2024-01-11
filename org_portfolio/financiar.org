@@ -6,8 +6,9 @@
 ---
 title: Financiar
 layout: project
+type: web
 desc: 백테스팅을 위한 주식 시각화/가상투자 서비스 
-categories: html css js react django drf pandas selenium redis docker docker-compose
+categories: html css js react django drf pandas selenium redis mariadb docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
 ---
 #+END_EXPORT
@@ -33,7 +34,7 @@ repo: https://github.com/iwakura1ain/Financiar
 [[./financiar-chart.png]]
 
 ** Redis를 사용한 데이터 캐싱 사용
-- 크롤링한 데이터를 *redis에 캐싱*
+- 크롤링한 데이터를 *redis에 캐싱* 하여 그래프 표출 딜레이 낮춤 
   [[./financiar-redis.png]]
 
 * 제한사항
