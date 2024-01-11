@@ -410,6 +410,12 @@ a.sidebar-nav-item:focus {
   .portfolio-img {
     display: none;
   }
+
+  .portfolio-content img{
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 300px) {
@@ -419,6 +425,12 @@ a.sidebar-nav-item:focus {
 
   .portfolio-img {
     display: none;
+  }
+
+  .portfolio-content img{
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-left: 30px;
   }
 }
 
@@ -461,6 +473,4 @@ a.sidebar-nav-item:focus {
   max-width: 70%;
   margin-bottom: 50px;
   margin-left: 30px;
-  
-  
 }
