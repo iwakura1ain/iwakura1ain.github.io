@@ -370,12 +370,14 @@ a.sidebar-nav-item:focus {
   /* padding-top: 40px; */
 }
 
+
 .portfolio-wrapper {
   display: flex;
   height: fit-content;
   flex-direction: row;
   text-align: justify;
   margin-bottom: 50px;
+  
 }
 
 @media (min-width: 48em) {
