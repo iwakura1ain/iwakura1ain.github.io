@@ -2,7 +2,14 @@
 title: Forum Video Maker
 layout: project
 type: cli
-desc: Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램
+desc: |
+   <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
+   <ul>
+   <li>밈 형식의 동영상을 생성하는 채널들에 영감을 받아 제작했다.</li>
+   <li><b>Selenium</b>을 사용하여 Reddit의 댓글 내용과 사진을 캡처했다.</li>
+   <li>MoviePy와 Google TTS를 사용해 영상과 대사를 생성했다.</li>
+   <li>유투브 API를 사용해 자동 업로드 기능을 추가했다.</li>
+   </ul>
 categories: cli python selenium crawling youtube
 repo: https://github.com/iwakura1ain/forum-video-maker
 live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
@@ -11,8 +18,7 @@ live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
 
 # 개요
 
-**Reddit 댓글들을 크롤링 해 영상으로 만드는 프로그램**
-
+{% include desc.html %}
 {% include stack.html %}
 
 
@@ -42,7 +48,7 @@ live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
 
 ## 유투브에 자동 업로드
 
--   유투브 API 사용해 개인 계정에 업로드
+-   유투브 API 사용해 자동으로 업로드
 
 ![img](./videomaker-upload.png)
 

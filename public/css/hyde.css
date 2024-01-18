@@ -203,7 +203,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 48rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -372,21 +372,22 @@ a.sidebar-nav-item:focus {
 
 .portfolio-wrapper {
   display: flex;
+  height: fit-content;
   flex-direction: row;
-  height: 140px;
+  text-align: justify;
   margin-bottom: 50px;
 }
 
 @media (min-width: 48em) {
   .portfolio-wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 }
 
 
 @media (min-width: 64em) {
   .portfolio-wrapper {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
 

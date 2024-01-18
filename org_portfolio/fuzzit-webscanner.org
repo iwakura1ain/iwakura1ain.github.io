@@ -7,15 +7,21 @@
 title: Fuzzit Web Scanner
 layout: project
 type: cli
-desc: 웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램 
+desc: 웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램
+desc: |
+   <b>웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램</b><br>
+   <ul>
+   <li>CTF 보안 문제를 풀면서 <b>인젝션 공격 탐지를 자동화</b>하는 시스템이 필요해 제작했다.</li>
+   <li>GET, POST, COOKIE 인젝션 공격과 URL 스캔 기능을 만들었다.</li>
+   <li><b>공격 패턴 자동 생성</b>과 비동기적인 공격 탐지 기능을 만들었다.</li>
+   </ul>
 categories: cli python multithreading scanner injection cybersecurity 
 repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 ---
 #+END_EXPORT
 
 * 개요
-*웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램*
-
+{% include desc.html %}
 {% include stack.html %}
 
 ** 인원과 역할
@@ -32,8 +38,11 @@ repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 ** 사용할 인젝션 wordlist와 취약점 탐지 ruleset를 정의하여 사용
 - 웹서비스에 보내질 *공격 패턴* 을 json 룰셋으로 생성
 - 공격이 성공했는지 *탐지 패턴* 을 json 룰셋으로 생성
+- 이때, curl과 같은 비동기적인 공격 패턴도 감지할 수 있는 기능 추가 
 [[./fuzzit-ruleset.png]]
 
 
 * 제한사항
+
+
 

@@ -2,7 +2,15 @@
 title: Sejong Reservation
 layout: project
 type: web
-desc: 회의실 예약 시스템 
+desc: |
+   <b>학교 내 회의실 예약을 위한 웹서비스</b><br>
+   <ul>
+   <li>수기로 이루어지던 회의실 예약 방식을 편리하게 만들기 위해 제작했다.</li>
+   <li>관리와 운영을 고려해 <b>Microservice 구조</b>로 개발하여 <b>Docker Swarm</b>을 사용해서 디플로이 했다.</li>
+   <li>Github Actions를 사용해 <b>CI/CD 파이프라인</b>을 도입했다.</li>
+   <li><b>회원제</b>로 운영이 되며 회원등급별로 정기 예약과 시스템 관리가 가능하다.</li>
+   <li>Vue를 사용한 반응형 웹페이지를 만들었다.</li>
+   </ul>
 categories: html css js vue microservice flask flask-restx mariadb github-actions docker docker-compose docker-swarm 
 repo: https://github.com/iwakura1ain/sejong-reservation
 ---
@@ -10,8 +18,7 @@ repo: https://github.com/iwakura1ain/sejong-reservation
 
 # 개요
 
-**학교 내 회의실 예약 위한 웹서비스**
-
+{% include desc.html %}
 {% include stack.html %}
 
 
@@ -21,6 +28,37 @@ repo: https://github.com/iwakura1ain/sejong-reservation
 -   한수현: 백엔드, 도큐멘테이션
 -   장호진: 백엔드, API 설계
 -   이원진: 프론트엔드, UI/UX 디자인, API 설계
+
+
+# 제한사항
+
+
+## 서비스별 데이터 독립화
+
+-   SqlAlchemy ORM으로 개발을 진행했으나, 데이터 스키마는 한곳에서 관리를 하는 것이 옳다고 생각했다.
+    
+        그러나 ORM을 사용하게 되면 모델을 개별적으로 정의해야 되는 문제점이 발생했다.
+
+
+### 해결
+
+-   SqlAlchemy Core를 사용해 **스키마를 각 서비스별로 reflect해 모델 정의 없이 사용** 하는 기능을 만들었다.
+-   **모든 서비스 아래로 상속** 시켜 프로젝트 전체에서 사용했다.
+    
+    <br>
+
+
+## 초기 통합 테스팅 시 브랜치 관리
+
+-   서비스별로 브랜치를 따로 관리하여 개발 진행했다.
+-   통합과정에서 머지를 먼저 하지 않고 각 브랜치별 도커 컨테이너를 생성하여 테스팅을 시도했다. 
+    
+        팀원간 서비스별 버전이 엇갈리는 문제점이 발생했다.
+
+
+### 해결
+
+-   통합 테스팅 전에 머지를 먼저 하여 **통일된 테스팅 버전을 만드는 것** 이 중요하다는 것을 깨닳았다.
 
 
 # 프로젝트
@@ -52,35 +90,6 @@ repo: https://github.com/iwakura1ain/sejong-reservation
 
 ## 도큐멘테이션 생성
 
--   **Postman\*과 \*readthedocs** 사용
+-   **Postman** 과 **readthedocs** 사용
 
 ![img](./sejong-reservation-doc.png)
-
-
-# 제한사항
-
-
-## 서비스별 데이터 독립화
-
--   SqlAlchemy ORM으로 개발을 진행했으나, 데이터 스키마는 한곳에서 관리를 하는 것이 옳다고 생각했다.
-    
-        그러나 ORM을 사용하게 되면 모델을 개별적으로 정의해야 되는 문제점이 발생했다.
-
-
-### 해결
-
--   SqlAlchemy Core를 사용해 **스키마를 각 서비스별로 reflect해 모델 정의 없이 사용** 하는 기능을 만들었다.
--   **모든 서비스 아래로 상속** 시켜 프로젝트 전체에서 사용했다.
-
-
-## 초기 통합 테스팅 시 브랜치 관리
-
--   서비스별로 브랜치를 따로 관리하여 개발 진행했다.
--   통합과정에서 머지를 먼저 하지 않고 각 브랜치별 도커 컨테이너를 생성하여 테스팅을 시도했다. 
-    
-        팀원간 서비스별 버전이 엇갈리는 문제점이 발생했다.
-
-
-### 해결
-
--   통합 테스팅 전에 머지를 먼저 하여 **통일된 테스팅 버전을 만드는 것** 이 중요하다는 것을 깨닳았다.
