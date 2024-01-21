@@ -1,0 +1,44 @@
+
+                #+STARTUP: showall indent
+                #+OPTIONS: toc:nil
+                #+OPTIONS: org-export-with-smart-quotes
+                #+OPTIONS: org-export-with-emphasize
+                #+OPTIONS: org-export-with-timestamps
+                #+layout: post
+                #+title: Docker context with AWS
+                #+date: 2020-09-14 15:20:05 +0900                 
+
+
+* ECS context not working
+** Error message
+#+begin_src bash
+  docker context create ecs name
+
+    docker context create" requires exactly 1 argument.
+    See 'docker context create --help'.
+
+    Usage:  docker context create [OPTIONS] CONTEXT
+
+    Create a context
+#+end_src
+
+** Solution
+- must update docker compose cli
+: https://stackoverflow.com/questions/67236401/docker-context-create-ecs-myecs-requires-exactly-one-argument
+#+begin_src bash
+  curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
+#+end_src
+
+- after update, create context with access keys
+- then switch to context
+#+begin_src bash
+  docker context use [CONTEXT-NAME]
+#+end_src
+
+
+
+
+
+
+
+
