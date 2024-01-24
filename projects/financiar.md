@@ -2,6 +2,7 @@
 title: Financiar
 layout: project
 type: web
+image: financiar.png
 desc: |
    <b>과거 주식 데이터로 모의 투자를 하는 웹서비스</b><br>
    <ul>
@@ -12,6 +13,7 @@ desc: |
    </ul>
 categories: html css js react django drf pandas selenium redis mariadb docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
+live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazonaws.com:5173/
 ---
 
 
@@ -19,6 +21,12 @@ repo: https://github.com/iwakura1ain/Financiar
 
 {% include desc.html %}
 {% include stack.html %}
+
+
+## 링크
+
+-   <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
+-   <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar></a>
 
 
 ## 인원과 역할

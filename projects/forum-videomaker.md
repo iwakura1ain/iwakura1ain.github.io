@@ -2,6 +2,7 @@
 title: Forum Video Maker
 layout: project
 type: cli
+image: videomaker-video.png
 desc: |
    <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
    <ul>
@@ -20,6 +21,12 @@ live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
 
 {% include desc.html %}
 {% include stack.html %}
+
+
+## 링크
+
+-   <a href="<https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr>"><https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr></a>
+-   <a href="<https://github.com/iwakura1ain/forum-video-maker>"><https://github.com/iwakura1ain/forum-video-maker></a>
 
 
 ## 인원과 역할

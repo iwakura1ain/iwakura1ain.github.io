@@ -2,6 +2,7 @@
 title: Sejong Reservation
 layout: project
 type: web
+image: sejong-reservation.png
 desc: |
    <b>학교 내 회의실 예약을 위한 웹서비스</b><br>
    <ul>
@@ -13,6 +14,7 @@ desc: |
    </ul>
 categories: html css js vue microservice flask flask-restx mariadb github-actions docker docker-compose docker-swarm 
 repo: https://github.com/iwakura1ain/sejong-reservation
+live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amazonaws.com
 ---
 
 
@@ -20,6 +22,12 @@ repo: https://github.com/iwakura1ain/sejong-reservation
 
 {% include desc.html %}
 {% include stack.html %}
+
+
+## 링크
+
+-   <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
+-   <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
 
 
 ## 인원과 역할

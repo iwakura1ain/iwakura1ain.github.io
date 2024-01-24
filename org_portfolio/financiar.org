@@ -7,6 +7,7 @@
 title: Financiar
 layout: project
 type: web
+image: financiar.png
 desc: |
    <b>과거 주식 데이터로 모의 투자를 하는 웹서비스</b><br>
    <ul>
@@ -25,6 +26,9 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
 {% include desc.html %}
 {% include stack.html %}
 
+** 링크
+- <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
+- <a href="https://github.com/iwakura1ain/Financiar">https://github.com/iwakura1ain/Financiar</a>
 
 ** 인원과 역할
 - *안창언*: 팀장, 시스템/스키마 설계, 프론트엔드, 백엔드
@@ -49,5 +53,7 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
   [[./financiar-redis.png]]
 
 * 제한사항
+
+
 
 

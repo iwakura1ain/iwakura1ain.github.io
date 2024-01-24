@@ -3,6 +3,7 @@ title: Fuzzit Web Scanner
 layout: project
 type: cli
 desc: 웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램
+image: fuzzit-help.png
 desc: |
    <b>웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램</b><br>
    <ul>
@@ -19,6 +20,11 @@ repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 
 {% include desc.html %}
 {% include stack.html %}
+
+
+## 링크
+
+-   <a href="<https://github.com/iwakura1ain/Fuzzit-Web-Scanner>"><https://github.com/iwakura1ain/Fuzzit-Web-Scanner></a>
 
 
 ## 인원과 역할
