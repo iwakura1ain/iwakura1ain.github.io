@@ -21,20 +21,20 @@ title: About
 # 🤖 Technology
 <hr>
 <div id="stack-location"></div>
-## ➤ 언어 
+## ➤ Language
 - 주로 <b>Python</b>을 사용해 API와 토이프로젝트 개발을 해왔습니다. 
 - <b>HTML, CSS, JS</b>를 사용한 웹 페이지 개발도 진행했습니다. 
 
-## ➤ 데이터베이스
+## ➤ Database
 - <b>MariaDB와 Postgresql</b>을 다양한 환경에 구축하고 사용해 본 경험이 있습니다. 
 - <b>Redis</b>를 사용해 캐싱을 해 보았습니다. 
 
-## ➤ 프레임워크 
+## ➤ Framework 
 - Python 기반의 웹 프레임워크인 <b>Django와 Flask</b>를 사용해 보았습니다. 
 - <b>Selenium와 Pandas</b>을 사용해 데이터를 가공하고 처리해 보았습니다.
 - <b>React</b>를 사용해 반응형 페이지를 만들어 보았습니다.
 
-## ➤ 환경 
+## ➤ Environment
 - <b>Linux와 Shell</b> 환경에 친숙합니다. 
 - <b>Docker</b>를 사용한 프로젝트 배포를 해본적이 있습니다.
 - <b>Git과 Github</b>을 사용해 팀원들과 협업을 하며 프로젝트를 진행했습니다.
