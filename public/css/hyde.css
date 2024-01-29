@@ -487,3 +487,44 @@ a.sidebar-nav-item:focus {
   margin-bottom: 50px;
   margin-left: 30px;
 }
+
+
+.pic-in-pic-box {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  position: fixed; 
+  bottom: -10%;
+  right: 5%;
+  bottom: 20px;
+  float:right;
+}
+
+.pic-in-pic-box > button {
+  background-color: unset;
+  border: unset;
+  margin: unset;
+  padding: unset;
+}
+
+.pic-in-pic-icon {
+  margin: 10px;
+  margin-left: -5px;
+  height: 80px;
+  width: 80px;
+  padding: 8px;
+}
+
+.pic-in-pic-icon:hover {
+  padding: 5px;
+}
+
+
+@media (max-width: 1350px) {
+  .pic-in-pic-box {
+    display: none;
+  }
+  .pic-in-pic-icon {
+    display: none;
+  }
+}

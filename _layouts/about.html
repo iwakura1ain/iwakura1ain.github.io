@@ -5,12 +5,16 @@
 
   <body class="theme-base-09" onload="changeVisibility(getLanguage())">
     {% include sidebar.html %}
+    
     <div class="content container fade-in">
 
-      
+      {% include picinpic.html  %}
 
-      <p class="message">
-	Hello stranger, welcome to my tiny little corner on the internet. 
+      <p class="message eng">
+	<b>{{ site.description_eng }}</b>
+      </p>
+      <p class="message kor">
+	<b>{{ site.description_kor }}</b>
       </p>
       <span class="portfolio-categories" id="stack">
 	{% assign stack = 'python js html css react django flask linux docker SQL' | split: ' ' %}

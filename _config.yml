@@ -10,7 +10,9 @@ relative_permalinks: false
 # Setup
 title:            1ain
 tagline:          'Present day, present time.'
-description:      "Welcome to iwakura1ain's personal blog. For more info about me, please visit the about page."
+description_eng:      "Welcome to iwakura1ain's personal blog. For more info about me, please visit the about page."
+description_kor:      "안녕하세요. 끊임없이 새로운 기술에 도전하는 개발자 안창언입니다."
+description:          "안녕하세요. 끊임없이 새로운 기술에 도전하는 개발자 안창언입니다."
 
 # github
 url:              "https://iwakura1ain.github.io"

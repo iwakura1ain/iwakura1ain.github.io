@@ -1,0 +1,18 @@
+<div class="pic-in-pic-box">
+  <script>
+   function printCV() {
+       w = window.open('{{ site.baseurl }}/{{ page.file }}');
+       w.print();
+   }
+   
+  </script>
+  <a href="{{ site.baseurl }}/{{ page.file }}" title="PDF Download">
+    <img class="pic-in-pic-icon" src="{{ site.baseurl }}/public/images/pdf.svg">
+  </a>
+  
+  <button onclick="printCV()" title="Print">
+    <img class="pic-in-pic-icon" src="{{ site.baseurl }}/public/images/print.svg">
+  </button>
+</div>
+
+
