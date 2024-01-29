@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-file: resume.pdf
+file: portfolio.pdf
 ---
 
 # 👤 About Me
@@ -40,3 +40,10 @@ file: resume.pdf
 - <b>Docker</b>를 사용한 프로젝트 배포를 해본적이 있습니다.
 - <b>Git과 Github</b>을 사용해 팀원들과 협업을 하며 프로젝트를 진행했습니다.
 
+# 👨‍💻 Projects 
+<hr>
+## <a href="{{ site.baseurl }}/portfolio">⤷ My Projects</a>
+
+# 📚 Certification
+<hr>
+## ➤ TOEIC 990점 
