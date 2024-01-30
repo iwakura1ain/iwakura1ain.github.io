@@ -171,6 +171,9 @@ hr {
     display: none;
     
   }
+  .sidebar-nav {
+    margin-top: 0;
+  }
 }
 
 /* Sidebar nav */
