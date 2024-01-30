@@ -50,7 +50,8 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
 ## 주가 데이터를 그래프 형태로 표출
 
 -   주가 정보를 Yahoo Finance에서 크롤링 해 표출
--   그래프는 스크롤과 줌 가능, 이때 **스크롤시 데이터를 prefetch** 해서 로딩속도 감소
+-   그래프는 스크롤과 줌 가능
+-   이때 **스크롤시 데이터를 prefetch** 해서 로딩속도 감소
 -   주가, 거래량, 가중평균, 당일변동 표출
 -   다양한 차트 스타일 제공 (캔들, 바, 라인)
 
