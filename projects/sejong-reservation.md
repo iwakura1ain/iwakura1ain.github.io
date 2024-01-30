@@ -4,7 +4,7 @@ layout: project
 type: web
 image: sejong-reservation.png
 desc: |
-   <b>학교 내 회의실 예약을 위한 웹서비스</b><br>
+   <b>&nbsp;학교 내 회의실 예약을 위한 웹서비스</b><br>
    <ul>
    <li>수기로 이루어지던 회의실 예약 방식을 편리하게 만들기 위해 제작했다.</li>
    <li>관리와 운영을 고려해 <b>Microservice 구조</b>로 개발하여 <b>Docker Swarm</b>을 사용해서 디플로이 했다.</li>
