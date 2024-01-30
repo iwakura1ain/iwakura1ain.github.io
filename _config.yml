@@ -15,12 +15,12 @@ description_kor:      "안녕하세요. 언제나 새로운 기술에 도전하�
 description:          "안녕하세요. 언제나 새로운 기술에 도전하는 개발자 &nbsp;<b>안창언</b>&nbsp;입니다."
 
 # github
-# url:              "https://iwakura1ain.github.io"
-# baseurl:          "https://iwakura1ain.github.io"
+url:              "https://iwakura1ain.github.io"
+baseurl:          "https://iwakura1ain.github.io"
 
 # local
-url:              ""
-baseurl:          ""
+# url:              ""
+# baseurl:          ""
 
 
 
