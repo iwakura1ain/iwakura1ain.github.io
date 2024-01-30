@@ -11,7 +11,7 @@ desc: |
    <li>종목은 분야별, 이름별 <b>검색이 가능</b>하며 주가 자체는 Yahoo Finance를 크롤링하여 <b>redis에 캐싱</b> 후 제공된다.</li>
    <li>무한스크롤이 가능한 종목 페이지와 상호작용이 풍부한 <b>인터랙티브 그래프</b>로 사용자의 참여를 유도한다.</li>
    </ul>
-categories: html css js react django drf pandas selenium redis mariadb docker docker-compose
+categories: finance html css js react django drf pandas selenium redis mariadb docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
 live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazonaws.com:5173/
 ---
@@ -25,8 +25,8 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
 
 ## 링크
 
--   LIVE: <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
--   REPO: <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar></a>
+-   **LIVE** : <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
+-   **REPO** : <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar></a>
 
 
 ## 인원과 역할
@@ -61,6 +61,3 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
 
 -   주가 데이터를 **redis에 캐싱** 하여 API 응답 시간을 낮춤
     ![img](./financiar-redis.png)
-
-
-# 제한사항

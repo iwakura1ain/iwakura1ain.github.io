@@ -7,9 +7,9 @@ image: fuzzit-help.png
 desc: |
    <b>웹서비스의 인풋이 인젝션 공격에 취약한지 검사하는 CLI 보안 프로그램</b><br>
    <ul>
-   <li>CTF 보안 문제를 풀면서 <b>인젝션 공격 탐지를 자동화</b>하는 시스템이 필요해 제작했다.</li>
+   <li>CTF 보안 문제를 풀면서 <b>인젝션 공격 탐지를 자동화하는 시스템</b>이 있으면 편리할 것 같아서 제작했다.</li>
    <li>GET, POST, COOKIE 인젝션 공격과 URL 스캔 기능을 만들었다.</li>
-   <li><b>공격 패턴 자동 생성</b>과 비동기적인 공격 탐지 기능을 만들었다.</li>
+   <li><b>공격 패턴 자동 생성</b>과 비동기적인 공격 탐지 또한 가능하다.</li>
    </ul>
 categories: cli python multithreading scanner injection cybersecurity 
 repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
@@ -24,7 +24,7 @@ repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 
 ## 링크
 
--   REPO: <a href="<https://github.com/iwakura1ain/Fuzzit-Web-Scanner>"><https://github.com/iwakura1ain/Fuzzit-Web-Scanner></a>
+-   **REPO** : <a href="<https://github.com/iwakura1ain/Fuzzit-Web-Scanner>"><https://github.com/iwakura1ain/Fuzzit-Web-Scanner></a>
 
 
 ## 인원과 역할
@@ -52,6 +52,3 @@ repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 -   이때, curl과 같은 비동기적인 공격 패턴도 감지할 수 있는 기능 추가
 
 ![img](./fuzzit-ruleset.png)
-
-
-# 제한사항

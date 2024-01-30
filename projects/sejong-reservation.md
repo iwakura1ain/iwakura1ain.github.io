@@ -12,7 +12,7 @@ desc: |
    <li><b>회원제</b>로 운영이 되며 회원등급별로 정기 예약과 시스템 관리가 가능하다.</li>
    <li>Vue를 사용한 반응형 웹페이지를 만들었다.</li>
    </ul>
-categories: html css js vue microservice flask flask-restx mariadb github-actions docker docker-compose docker-swarm 
+categories: html css js vue microservice flask flask-restx mariadb github-actions CI/CD docker docker-compose docker-swarm 
 repo: https://github.com/iwakura1ain/sejong-reservation
 live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amazonaws.com
 ---
@@ -26,8 +26,8 @@ live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amaz
 
 ## 링크
 
--   LIVE: <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
--   REPO: <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
+-   **LIVE** : <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
+-   **REPO** : <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
 
 
 ## 인원과 역할

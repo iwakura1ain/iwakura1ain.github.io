@@ -528,3 +528,24 @@ a.sidebar-nav-item:focus {
     display: none;
   }
 }
+
+.inline {
+  display: inline-block;
+  margin: unset;
+  padding: 0px;
+  margin-bottom: unset;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon {
+  height: 30px;
+  margin-bottom: -8px;
+}
+
+.fancy-font {
+  font-family: "Abril Fatface", serif;
+  color: unset;
+  color: #d28445;
+}
+

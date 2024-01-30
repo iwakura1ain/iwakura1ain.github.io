@@ -6,8 +6,14 @@ file:
 
 <div class="post fade-in">
   {% include picinpic.html %}
+  <p class="message eng">
+    <i><b>{{ site.description_eng }}</b></i>
+  </p>
+  <p class="message kor">
+    <i><b>{{ site.description_kor }}</b></i>
+  </p>
   <div class="sidebar-title">
-    <h1>My Projects</h1>
+    <h1>👨‍💻 <b>My Projects</b></h1>
   </div>
   <hr>
   {% comment %}
@@ -29,8 +35,8 @@ file:
       <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
       {% endif %}
       <div class="portfolio-item">
-	<h4 class="theme-base-09 portfolio-list-title">
-	<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+	<h4 class="theme-base-09 portfolio-list-title inline">
+	  <a class="inline-block sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
 	<hr>
 	</h4>
       <p>{{ node.desc }}</p>

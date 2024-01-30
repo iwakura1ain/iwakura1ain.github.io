@@ -48,4 +48,4 @@ file: resume.pdf
 
 # 📚 Certification
 <hr>
-## &nbsp;&nbsp;➤ TOEIC 990점 
+## &nbsp;<img class="inline icon" src="{{ site.baseurl }}/public/images/toeic.png" alt="TOEIC"> 990점 
