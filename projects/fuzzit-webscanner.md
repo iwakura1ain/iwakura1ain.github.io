@@ -24,7 +24,7 @@ repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 
 ## 링크
 
--   <a href="<https://github.com/iwakura1ain/Fuzzit-Web-Scanner>"><https://github.com/iwakura1ain/Fuzzit-Web-Scanner></a>
+-   REPO: <a href="<https://github.com/iwakura1ain/Fuzzit-Web-Scanner>"><https://github.com/iwakura1ain/Fuzzit-Web-Scanner></a>
 
 
 ## 인원과 역할

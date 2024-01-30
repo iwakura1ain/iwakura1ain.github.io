@@ -25,8 +25,8 @@ live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
 
 ## 링크
 
--   <a href="<https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr>"><https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr></a>
--   <a href="<https://github.com/iwakura1ain/forum-video-maker>"><https://github.com/iwakura1ain/forum-video-maker></a>
+-   LIVE: <a href="<https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr>"><https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr></a>
+-   REPO: <a href="<https://github.com/iwakura1ain/forum-video-maker>"><https://github.com/iwakura1ain/forum-video-maker></a>
 
 
 ## 인원과 역할

@@ -26,8 +26,8 @@ live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amaz
 
 ## 링크
 
--   <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
--   <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
+-   LIVE: <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
+-   REPO: <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
 
 
 ## 인원과 역할
