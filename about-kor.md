@@ -1,8 +1,9 @@
 ---
 layout: about
 title: About
-file: portfolio.pdf
+file: resume.pdf
 ---
+
 
 # 👤 About Me
 <hr>
@@ -14,10 +15,10 @@ file: portfolio.pdf
 
 # 🔎 Introduction
 <hr>
-- 신입 백엔드 개발자 <b>안창언</b> 입니다. 
 - 무엇이든 끝까지 파고 들어가는 마인드셋으로 문제를 접근합니다. 
 - 도큐멘테이션을 항상 참고합니다.
 - 코드 스타일과 구조를 위해 항상 올바른 코드가 무엇인지 고민합니다. 
+- 동료들과의 협업을 위한 시스템을 믿습니다.
 
 # 🤖 Technology
 <hr>
@@ -40,10 +41,11 @@ file: portfolio.pdf
 - <b>Docker</b>를 사용한 프로젝트 배포를 해본적이 있습니다.
 - <b>Git과 Github</b>을 사용해 팀원들과 협업을 하며 프로젝트를 진행했습니다.
 
-# 👨‍💻 Projects 
+# 👨‍💻 Portfolio
 <hr>
-## <a href="{{ site.baseurl }}/portfolio">⤷ My Projects</a>
+## <a href="{{ site.baseurl }}/portfolio">&nbsp;&nbsp;⤷ My Projects</a>
+<br>
 
 # 📚 Certification
 <hr>
-## ➤ TOEIC 990점 
+## &nbsp;&nbsp;➤ TOEIC 990점 
