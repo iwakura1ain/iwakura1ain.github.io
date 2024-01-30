@@ -567,3 +567,25 @@ a.sidebar-nav-item:focus {
   color: #d28445;
 }
 
+.about-photo {
+  height: 14%;
+  width: 14%;
+}
+
+.me-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.me-wrapper > ul{
+  margin-top: 10px;
+}
+
+.me-wrapper > img{
+  margin-bottom: 10px;
+}
+
+.orange {
+  color: #d17932;
+  font-size: 110%;
+}

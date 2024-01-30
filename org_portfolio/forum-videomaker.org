@@ -8,6 +8,7 @@ title: Forum Video Maker
 layout: project
 type: cli
 image: videomaker-video.png
+short: <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
 desc: |
    <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
    <ul>

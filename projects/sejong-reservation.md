@@ -3,6 +3,7 @@ title: Sejong Reservation
 layout: project
 type: web
 image: sejong-reservation.png
+short: <b>&nbsp;학교 내 회의실 예약을 위한 웹서비스</b><br>
 desc: |
    <b>&nbsp;학교 내 회의실 예약을 위한 웹서비스</b><br>
    <ul>

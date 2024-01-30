@@ -3,6 +3,7 @@ title: Financiar
 layout: project
 type: web
 image: financiar.png
+short: <b>&nbsp;과거 주식 데이터로 모의 투자를 하는 웹서비스</b><br>
 desc: |
    <b>&nbsp;과거 주식 데이터로 모의 투자를 하는 웹서비스</b><br>
    <ul>

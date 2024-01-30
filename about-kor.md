@@ -7,11 +7,7 @@ file: resume.pdf
 
 # 👤 About Me
 <hr>
-- <b>안창언</b>
-- <b>세종대학교 컴퓨터공학과 2017 - 2023</b>
-- <b>010-7589-1404 ernie937@gmail.com</b>
-- <b>Blog:</b> <a href="https://iwakura1ain.github.io/">https://iwakura1ain.github.io/</a>
-- <b>Github:</b> <a href="https://github.com/iwakura1ain">https://github.com/iwakura1ain</a>
+{% include me.html %}
 
 # 🔎 Introduction
 <hr>
@@ -24,27 +20,26 @@ file: resume.pdf
 <hr>
 <div id="stack-location"></div>
 ## ➤ Language
-- 주로 <b>Python</b>을 사용해 API와 토이프로젝트 개발을 해왔습니다. 
-- <b>HTML, CSS, JS</b>를 사용한 웹 페이지 개발도 진행했습니다. 
+- 주로 <b class="orange">Python</b>을 사용해 API와 토이프로젝트 개발을 해왔습니다. 
+- <b class="orange">HTML, CSS, JS</b>를 사용한 웹 페이지 개발도 진행했습니다. 
 
 ## ➤ Database
-- <b>MariaDB와 Postgresql</b>을 다양한 환경에 구축하고 사용해 본 경험이 있습니다. 
-- <b>Redis</b>를 사용해 캐싱을 해 보았습니다. 
+- <b class="orange">MariaDB</b>와 <b class="orange">Postgresql</b>을 다양한 환경에 구축하고 사용해 본 경험이 있습니다. 
+- <b class="orange">Redis</b>를 사용해 캐싱을 해 보았습니다. 
 
 ## ➤ Framework 
-- Python 기반의 웹 프레임워크인 <b>Django와 Flask</b>를 사용해 보았습니다. 
-- <b>Selenium와 Pandas</b>을 사용해 데이터를 가공하고 처리해 보았습니다.
-- <b>React</b>를 사용해 반응형 페이지를 만들어 보았습니다.
+- Python 기반의 웹 프레임워크인 <b class="orange">Django</b>와 <b class="orange">Flask</b>를 사용해 보았습니다. 
+- <b class="orange">Selenium</b>와 <b class="orange">Pandas</b>을 사용해 데이터를 가공하고 처리해 보았습니다.
+- <b class="orange">React</b>를 사용해 반응형 페이지를 만들어 보았습니다.
 
 ## ➤ Environment
-- <b>Linux와 Shell</b> 환경에 친숙합니다. 
-- <b>Docker</b>를 사용한 프로젝트 배포를 해본적이 있습니다.
-- <b>Git과 Github</b>을 사용해 팀원들과 협업을 하며 프로젝트를 진행했습니다.
+- <b class="orange">Linux</b>와 <b class="orange">Shell</b> 환경에 친숙합니다. 
+- <b class="orange">Docker</b>를 사용한 프로젝트 배포를 해본적이 있습니다.
+- <b class="orange">Git</b>과 <b class="orange">Github</b>을 사용해 팀원들과 협업을 하며 프로젝트를 진행했습니다.
 
-# 👨‍💻 Portfolio
+# 👨‍💻 My Projects
 <hr>
-## <a href="{{ site.baseurl }}/portfolio">&nbsp;&nbsp;⤷ My Projects</a>
-<br>
+{% include projects.html %}
 
 # 📚 Certification
 <hr>
