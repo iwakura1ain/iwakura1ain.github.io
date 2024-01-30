@@ -39,10 +39,11 @@
    }
 
    const changeVisibility = (language) => {
+          
        let [eng, kor] = language == "kor" ? ["none", "block"] : ["block", "none"]
        let engElements = [...document.getElementsByClassName("eng")]
        let korElements = [...document.getElementsByClassName("kor")]
-
+       
        engElements.map((element) => element.style.display = eng)
        korElements.map((element) => element.style.display = kor)
 

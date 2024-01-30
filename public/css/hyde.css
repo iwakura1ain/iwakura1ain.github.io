@@ -157,6 +157,21 @@ hr {
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
 }
+.sidebar-about > p {
+  border: none;
+}
+
+.sidebar-desc-wrapper {
+  display: block;
+  
+}
+
+@media (max-width: 770px) {
+  .sidebar-desc-wrapper {
+    display: none;
+    
+  }
+}
 
 /* Sidebar nav */
 .sidebar-nav {

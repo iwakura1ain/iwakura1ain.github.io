@@ -20,8 +20,10 @@
 	</div>
       </div>
 
-      <p class="lead eng">{{ site.description_eng }}</p>
-      <p class="lead kor">{{ site.description_kor }}</p>
+      <div class="sidebar-desc-wrapper">
+	<p class="lead eng">{{ site.description_eng }}</p>
+	<p class="lead kor">{{ site.description_kor }}</p>
+      </div>
     </div>
 
     <nav class="sidebar-nav">
@@ -53,3 +55,6 @@
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
+
+
+
