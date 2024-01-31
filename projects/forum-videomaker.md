@@ -8,8 +8,8 @@ desc: |
    <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
    <ul>
    <li>밈 형식의 동영상을 생성하는 채널들에 영감을 받아 제작했다.</li>
-   <li><b>Selenium</b>을 사용하여 Reddit의 댓글 내용과 사진을 캡처한다.</li>
-   <li>MoviePy와 Google TTS를 사용해 영상과 대사를 생성한다.</li>
+   <li><b>Selenium</b>을 사용하여 Reddit을 모니터링 하며 댓글 내용과 사진을 캡처한다.</li>
+   <li>MoviePy와 Google TTS를 사용해 <b>영상과 대사를 생성</b>한다.</li>
    <li>유투브 API를 사용해 자동 업로드를 구현했다.</li>
    </ul>
 categories: cli video python selenium crawling youtube

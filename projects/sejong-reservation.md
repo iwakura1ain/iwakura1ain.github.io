@@ -8,9 +8,10 @@ desc: |
    <b>&nbsp;학교 내 회의실 예약을 위한 웹서비스</b><br>
    <ul>
    <li>수기로 이루어지던 회의실 예약 방식을 편리하게 만들기 위해 제작했다.</li>
-   <li>관리와 운영을 고려해 <b>Microservice 구조</b>로 개발하여 <b>Docker Swarm</b>을 사용해서 디플로이 했다.</li>
-   <li>Github Actions를 사용해 <b>CI/CD 파이프라인</b>을 도입했다.</li>
-   <li><b>회원제</b>로 운영이 되며 회원등급별로 정기 예약과 시스템 관리가 가능하다.</li>
+   <li>자주 다운되거나 오버로드 되던 기존의 학교 시스템을 개선하기 위해 수평 스케일링이 가능한 <b>MSA 구조</b>로 설계했다.</li>
+   <li>학교에서 실제로 사용할 시스템이기에, 관리와 운영의 편의를 위해서 <b>Docker Swarm</b>을 사용해 디플로이 했다.</li>
+   <li>추후 업데이트를 쉽게 반영하기 위해 Github Actions를 사용해 <b>CI/CD 파이프라인</b>을 도입했다.</li>
+   <li><b>회원제</b>로 운영이 되며 회원등급별로 페이지별 권한과 관리 기능이 다르게 만들었다.</li>
    <li>Vue를 사용한 반응형 웹페이지를 만들었다.</li>
    </ul>
 categories: html css js vue microservice flask flask-restx mariadb github-actions CI/CD docker docker-compose docker-swarm 

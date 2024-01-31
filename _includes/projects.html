@@ -1,21 +1,22 @@
-  <div class="portfolio-list">
-    <!-- WEB PROGRAMS -->
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-    {% if node.title != null %}
-    {% if node.layout == "project" %}
-    {% if node.type == "web" %}
-    <div class="portfolio-wrapper">
-      {% if node.image != null %}
-      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/{{ node.image }}">
-      {% else %}
-      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
-      {% endif %}
-      <div class="portfolio-item">
-	<h4 class="theme-base-09 portfolio-list-title inline">
-	  <a class="inline-block sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+<div class="portfolio-list">
+  
+  <!-- CLI PROGRAMS -->
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+  {% if node.title != null %}
+  {% if node.layout == "project" %}
+  {% if node.type == "cli" %}
+  <div class="portfolio-wrapper">
+    {% if node.image != null %}
+    <img class="portfolio-img" src="{{ site.baseurl }}/public/images/{{ node.image }}">
+    {% else %}
+    <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
+    {% endif %}
+    <div class="portfolio-item">
+      <h4 class="theme-base-09 portfolio-list-title">
+	<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
 	<hr>
-	</h4>
+      </h4>
       <p>{{ node.short }}</p>
       <span class="portfolio-categories">
 	{% assign categories = node.categories | split: ' ' %}
@@ -23,41 +24,42 @@
 	<p class="tag">{{ tag }}</p>
 	{% endfor %}
       </span>
-      </div>
     </div>
-    {% endif %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
-    <!-- CLI PROGRAMS -->
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-    {% if node.title != null %}
-    {% if node.layout == "project" %}
-    {% if node.type == "cli" %}
-    <div class="portfolio-wrapper">
-      {% if node.image != null %}
-      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/{{ node.image }}">
-      {% else %}
-      <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
-      {% endif %}
-      <div class="portfolio-item">
-	<h4 class="theme-base-09 portfolio-list-title">
-	  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-	  <hr>
-	</h4>
-	<p>{{ node.short }}</p>
-	<span class="portfolio-categories">
-	  {% assign categories = node.categories | split: ' ' %}
-	  {% for tag in categories %}
-	  <p class="tag">{{ tag }}</p>
-	  {% endfor %}
-	</span>
-      </div>
-    </div>
-    {% endif %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
   </div>
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  
+  <!-- WEB PROGRAMS -->
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+  {% if node.title != null %}
+  {% if node.layout == "project" %}
+  {% if node.type == "web" %}
+  <div class="portfolio-wrapper">
+    {% if node.image != null %}
+    <img class="portfolio-img" src="{{ site.baseurl }}/public/images/{{ node.image }}">
+    {% else %}
+    <img class="portfolio-img" src="{{ site.baseurl }}/public/images/nope.jpg">
+    {% endif %}
+    <div class="portfolio-item">
+      <h4 class="theme-base-09 portfolio-list-title inline">
+	<a class="inline-block sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+	<hr>
+      </h4>
+      <p>{{ node.short }}</p>
+      <span class="portfolio-categories">
+	{% assign categories = node.categories | split: ' ' %}
+	{% for tag in categories %}
+	<p class="tag">{{ tag }}</p>
+	{% endfor %}
+      </span>
+    </div>
+  </div>
+  {% endif %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+
+</div>
