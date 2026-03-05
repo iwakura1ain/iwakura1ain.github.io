@@ -6,9 +6,11 @@ file: resume-eng.pdf
 
 
 # 👤 About Me
+<hr>
 {% include me-eng.html %}
 
 # 🔎 Introduction
+<hr>
 - Backend & DevOps Engineer with 2.5 years of experience building reliable, scalable Python-based systems supporting critical public infrastructure.
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
@@ -16,6 +18,7 @@ file: resume-eng.pdf
 <div id="stack-location"></div>
 
 # 👩🏻‍💻 Work Experience
+<hr>
 ## ➤ <b>Researcher | Neurodigm (2023 - Current)</b>
 <b class="about-num">1. Smart Traffic Control Solution</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
@@ -37,6 +40,7 @@ file: resume-eng.pdf
 
 
 # 🤖 Technical Abilities
+<hr>
 ## ➤ Backend Development
 - Designing and developing reliable, scalable backend systems running on a variety of different hardware (eg. edge devices, servers).
 - Building RESTful APIs using <b class="orange-small">Python</b> and <b class="orange-small">Web Frameworks</b> (eg. Django, Flask, Fastapi).
@@ -56,6 +60,7 @@ file: resume-eng.pdf
 
 
 # 👨‍💻 My Projects
+<hr>
 {% include projects.html %}
 
 # 📚 Certification
