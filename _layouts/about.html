@@ -2,10 +2,9 @@
 <html lang="en-us">
   {% include head.html %}
 
-
   <body class="theme-base-09" onload="changeVisibility(getLanguage())">
     {% include sidebar.html %}
-    
+
     <div class="content container fade-in">
 
       {% include picinpic.html  %}
@@ -17,7 +16,7 @@
 	<i><b>{{ site.description_kor }}</b></i>
       </p>
       <span class="portfolio-categories" id="stack">
-	{% assign stack = 'python js html css react django flask linux docker SQL' | split: ' ' %}
+	{% assign stack = 'python django flask fastapi docker k8s mysql linux' | split: ' ' %}
 	{% for tag in stack %}
 	<p class="tag">{{ tag }}</p>
 	{% endfor %}
@@ -32,9 +31,8 @@
        var parent = document.getElementById("stack-location")
        parent.appendChild(stackList)
       </script>
-      
+
     </div>
 
   </body>
 </html>
-
