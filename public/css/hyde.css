@@ -362,8 +362,7 @@ a.sidebar-nav-item:focus {
 
 /* about */
 .about-num {
-  margin-bottom: 3px;
-  font-size: 105%;
+  margin-bottom: 0px;
 }
 
 /* portfolio */
