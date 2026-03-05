@@ -43,19 +43,19 @@ file: resume.pdf
 <hr>
 <div id="stack-location"></div>
 ## ➤ Backend Development
-- 다양한 하드웨어 환경(엣지 디바이스, 서버)에서 안정적으로 동작하는 <b class="orange">Python 기반 백엔드 시스템</b> 설계 및 개발
-- Python 웹 프레임워크(Django, Flask, FastAPI)를 활용한 <b class="orange">RESTful API</b> 설계 및 개발
-- 다양한 <b class="orange">AI 서비스와의 연동</b>을 통해 비즈니스 로직 구현
-- 핵심 공공 인프라 환경에서 운영되는 시스템을 위한 <b class="orange">안전장치</b> 설계 및 구현
+- 다양한 하드웨어 환경(엣지 디바이스, 서버)에서 안정적으로 동작하는 <b class="orange-small">Python 기반 백엔드 시스템</b> 설계 및 개발
+- Python 웹 프레임워크(Django, Flask, FastAPI)를 활용한 <b class="orange-small">RESTful API</b> 설계 및 개발
+- 다양한 <b class="orange-small">AI 서비스와의 연동</b>을 통해 비즈니스 로직 구현
+- 핵심 공공 인프라 환경에서 운영되는 시스템을 위한 <b class="orange-small">안전장치</b> 설계 및 구현
 - 특수 하드웨어와의 연동을 위한 인터페이스 API 설계 및 구현
 
 ## ➤ Database Management
-- 고성능 애플리케이션을 위한 <b class="orange">SQL 쿼리 작성 및 최적화</b>
+- 고성능 애플리케이션을 위한 <b class="orange-small">SQL 쿼리 작성 및 최적화</b>
 - 데이터베이스(MySQL, MinIO, Redis) 구축 및 운영 관리
 
 ## ➤ DevOps / Infra
-- Docker 기반 <b class="orange">애플리케이션 컨테이너화</b> 및 Docker Compose, Kubernetes를 활용한 서비스 배포 및 운영
-- Jenkins 기반 <b class="orange">CI/CD 파이프라인</b> 설계 및 구축
+- Docker 기반 <b class="orange-small">애플리케이션 컨테이너화</b> 및 Docker Compose, Kubernetes를 활용한 서비스 배포 및 운영
+- Jenkins 기반 <b class="orange-small">CI/CD 파이프라인</b> 설계 및 구축
 - 내부망 환경에서의 배포를 위한 하드웨어와 소프트웨어 세팅 및 관리
 - 사내 하드웨어(테스트 장치, 서버, 특수 하드웨어) 및 개발 툴(GitLab, Samba) 관리 및 운영
 

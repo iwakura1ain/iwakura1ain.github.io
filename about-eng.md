@@ -19,42 +19,42 @@ file: resume-eng.pdf
 
 # 👩🏻‍💻 Work Experience
 <hr>
-## ➤ Researcher | Neurodigm (2023 - Current)
+## ➤ <b>Researcher | Neurodigm (2023 - Current)</b>
 <b class="about-num">1. Smart Traffic Control Solution</b>
-- Developed distributed backend services, specialized hardware interface APIs, control safety mechanisms, and traffic control algorithms deployed on edge systems.
-- Optimized traffic control algorithms through simulation, reducing real-world traffic congestion by an average of 17–24%.
+- Developed distributed <b>backend services, specialized hardware interface APIs, control safety mechanisms, and traffic control algorithms</b> deployed on edge systems.
+- <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b>average of 17–24%</b>.
 - Deployed and maintained the system in 3 different production environments, providing technical support and issue resolution.
 
 <b class="about-num">2. Patient Disease Prediction Service</b>
-- Developed backend APIs, core business logic, and automated result-generation modules.
-- Integrated in-house disease prediction models.
+- Developed <b>backend APIs, core business logic, and automated result-generation modules</b>.
+- Integrated in-house <b>disease prediction AI models</b>.
 - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
 - Deployed and maintained the system in 1 production environment and provided ongoing technical support and maintenance.
 
 <b class="about-num">3. Medical Sales Training Chatbot Service</b>
-- Developed backend APIs and integrated ChatGPT-based conversational functionality to support AI-driven training interactions for medical sales personnel.
+- Developed the <b>backend API and integrated ChatGPT-based conversational functionality</b> to support AI-driven training interactions for medical sales personnel.
 
 <b class="about-num">4. Solar Power Prediction and Cost Analysis Solution</b>
-- Developed backend APIs, core inference logic, and solar panel data integration systems.
-- Integrated in-house solar power prediction models to enable energy production forecasting and cost analysis.
+- Developed <b>backend APIs, core inference logic, and solar panel data integration</b> systems.
+- Integrated in-house <b>solar power prediction AI models</b> to enable energy production forecasting and cost analysis.
 
 
 # 🤖 Technical Abilities
 <hr>
 ## ➤ Backend Development
 - Designing and developing reliable, scalable backend systems running on a variety of different hardware (eg. edge devices, servers).
-- Building RESTful APIs using <b class="orange">Python</b> and <b class="orange">Web Frameworks</b> (eg. Django, Flask, Fastapi).
-- Integrating internal and external <b class="orange">AI services</b> into software control flow.
-- Coordinating and implementing <b class="orange">safety measures</b> for systems running on critical public infrastructure.
+- Building RESTful APIs using <b class="orange-small">Python</b> and <b class="orange-small">Web Frameworks</b> (eg. Django, Flask, Fastapi).
+- Integrating internal and external <b class="orange-small">AI services</b> into software control flow.
+- Coordinating and implementing <b class="orange-small">safety measures</b> for systems running on critical public infrastructure.
 - Creating APIs to interface with specialized hardware.
 
 ## ➤ Database Management
-- Writing <b class="orange">optimized SQL queries</b> for high-performance applications
+- Writing <b class="orange-small">optimized SQL queries</b> for high-performance applications
 - Managing setup, migrations, backups, and data integrity for databases (eg. Mysql, MinIO, Redis).
 
 ## ➤ DevOps, Deployment, and Management
-- <b class="orange">Containerizing applications</b> with Docker and orchestrating deployments using Docker Compose and Kubernetes
-- Designing and implementing <b class="orange">CI/CD pipelines</b> using Jenkins.
+- <b class="orange-small">Containerizing applications</b> with Docker and orchestrating deployments using Docker Compose and Kubernetes
+- Designing and implementing <b class="orange-small">CI/CD pipelines</b> using Jenkins.
 - Managing hardware & software configurations for deployment in private network production environments.
 - Managing internal hardware (eg. test devices, servers, specialized hardware) and support software (eg. Gitlab, Samba).
 

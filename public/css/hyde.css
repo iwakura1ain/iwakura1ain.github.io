@@ -357,7 +357,8 @@ a.sidebar-nav-item:focus {
 
 /* about */
 .about-num {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 80%;
 }
 
 /* portfolio */
@@ -593,4 +594,9 @@ a.sidebar-nav-item:focus {
 .orange {
   color: #d17932;
   font-size: 110%;
+}
+
+.orange-small {
+  color: #d17932;
+  font-size: 100%;
 }
