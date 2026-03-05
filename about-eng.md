@@ -6,11 +6,9 @@ file: resume-eng.pdf
 
 
 # 👤 About Me
-<hr>
 {% include me-eng.html %}
 
 # 🔎 Introduction
-<hr>
 - Backend & DevOps Engineer with 2.5 years of experience building reliable, scalable Python-based systems supporting critical public infrastructure.
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
@@ -18,29 +16,27 @@ file: resume-eng.pdf
 <div id="stack-location"></div>
 
 # 👩🏻‍💻 Work Experience
-<hr>
 ## ➤ <b>Researcher | Neurodigm (2023 - Current)</b>
 <b class="about-num">1. Smart Traffic Control Solution</b>
-- Developed distributed <b>backend services, specialized hardware interface APIs, control safety mechanisms, and traffic control algorithms</b> deployed on edge systems.
+- Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b>average of 17–24%</b>.
-- Deployed and maintained the system in 3 different production environments, providing technical support and issue resolution.
+- Deployed and maintained the system in <b>3 different production environments</b>, providing technical support and issue resolution.
 
 <b class="about-num">2. Patient Disease Prediction Service</b>
-- Developed <b>backend APIs, core business logic, and automated result-generation modules</b>.
+- Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
 - Integrated in-house <b>disease prediction AI models</b>.
 - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
-- Deployed and maintained the system in 1 production environment and provided ongoing technical support and maintenance.
+- Deployed and maintained the system in <b>1 production environment</b> and provided ongoing technical support and maintenance.
 
 <b class="about-num">3. Medical Sales Training Chatbot Service</b>
 - Developed the <b>backend API and integrated ChatGPT-based conversational functionality</b> to support AI-driven training interactions for medical sales personnel.
 
 <b class="about-num">4. Solar Power Prediction and Cost Analysis Solution</b>
-- Developed <b>backend APIs, core inference logic, and solar panel data integration</b> systems.
+- Developed <b>backend APIs</b>, core <b>inference logic</b>, and <b>solar panel data integration</b> systems.
 - Integrated in-house <b>solar power prediction AI models</b> to enable energy production forecasting and cost analysis.
 
 
 # 🤖 Technical Abilities
-<hr>
 ## ➤ Backend Development
 - Designing and developing reliable, scalable backend systems running on a variety of different hardware (eg. edge devices, servers).
 - Building RESTful APIs using <b class="orange-small">Python</b> and <b class="orange-small">Web Frameworks</b> (eg. Django, Flask, Fastapi).
@@ -60,7 +56,6 @@ file: resume-eng.pdf
 
 
 # 👨‍💻 My Projects
-<hr>
 {% include projects.html %}
 
 # 📚 Certification

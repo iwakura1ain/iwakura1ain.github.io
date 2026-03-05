@@ -75,6 +75,10 @@ hr {
 }
 
 /* custom CSS */
+h1 {
+  margin-bottom: 5px;
+}
+
 .post h1 {
   font-size: 170%;
 }
@@ -358,7 +362,7 @@ a.sidebar-nav-item:focus {
 /* about */
 .about-num {
   margin-bottom: 5px;
-  font-size: 80%;
+  font-size: 95%;
 }
 
 /* portfolio */
