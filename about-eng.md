@@ -15,31 +15,32 @@ file: resume-eng.pdf
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
 
-# 🤖 Work Experience
+<div id="stack-location"></div>
+
+# 👩🏻‍💻 Work Experience
 <hr>
 ## ➤ Researcher | Neurodigm (2023 - Current)
-1. Smart Traffic Control Solution
-   - Developed distributed backend services, specialized hardware interface APIs, control safety mechanisms, and traffic control algorithms deployed on edge systems.
-   - Optimized traffic control algorithms through simulation, reducing real-world traffic congestion by an average of 17–24%.
-   - Deployed and maintained the system in 3 different production environments, providing technical support and issue resolution.
+<b class="about-num">1. Smart Traffic Control Solution</b>
+- Developed distributed backend services, specialized hardware interface APIs, control safety mechanisms, and traffic control algorithms deployed on edge systems.
+- Optimized traffic control algorithms through simulation, reducing real-world traffic congestion by an average of 17–24%.
+- Deployed and maintained the system in 3 different production environments, providing technical support and issue resolution.
 
-2. Patient Disease Prediction Service
-   - Developed backend APIs, core business logic, and automated result-generation modules.
-   - Integrated in-house disease prediction models.
-   - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
-   - Deployed and maintained the system in 1 production environment and provided ongoing technical support and maintenance.
+<b class="about-num">2. Patient Disease Prediction Service</b>
+- Developed backend APIs, core business logic, and automated result-generation modules.
+- Integrated in-house disease prediction models.
+- Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
+- Deployed and maintained the system in 1 production environment and provided ongoing technical support and maintenance.
 
-3. Medical Sales Training Chatbot Service
-   - Developed backend APIs and integrated ChatGPT-based conversational functionality to support AI-driven training interactions for medical sales personnel.
+<b class="about-num">3. Medical Sales Training Chatbot Service</b>
+- Developed backend APIs and integrated ChatGPT-based conversational functionality to support AI-driven training interactions for medical sales personnel.
 
-4. Solar Power Prediction and Cost Analysis Solution
-   - Developed backend APIs, core inference logic, and solar panel data integration systems.
-   - Integrated in-house solar power prediction models to enable energy production forecasting and cost analysis.
+<b class="about-num">4. Solar Power Prediction and Cost Analysis Solution</b>
+- Developed backend APIs, core inference logic, and solar panel data integration systems.
+- Integrated in-house solar power prediction models to enable energy production forecasting and cost analysis.
 
 
 # 🤖 Technical Abilities
 <hr>
-<div id="stack-location"></div>
 ## ➤ Backend Development
 - Designing and developing reliable, scalable backend systems running on a variety of different hardware (eg. edge devices, servers).
 - Building RESTful APIs using <b class="orange">Python</b> and <b class="orange">Web Frameworks</b> (eg. Django, Flask, Fastapi).
