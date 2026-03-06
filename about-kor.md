@@ -11,7 +11,7 @@ file: resume.pdf
 
 # 🔎 Introduction
 <hr>
-<br>
+<div id="stack-location"></div>
 - Python 기반 백엔드 개발 및 DevOps 업무를 수행한 2.5년 경력의 Backend & DevOps 엔지니어입니다.
 - Fastapi 백엔드 개발, AI 연동, MySQL 데이터베이스 관리, 하드웨어 시스템 관리 분야에 전문성을 갖추고 있습니다.
 - Jenkins 기반 CI/CD 파이프라인 구축 및 Docker, Kubernetes를 활용한 컨테이너 기반 애플리케이션 배포 경험을 보유하고 있습니다.
@@ -20,7 +20,7 @@ file: resume.pdf
 
 # 🤖 Work Experience
 <hr>
-## ➤ Researcher | Neurodigm (2023 - Current)
+## <p class="message">➤ Researcher | Neurodigm (2023 - Current)</p>
 <b class="about-num">1. 스마트 교통 제어 솔루션 (Smart Traffic Control Solution)</b>
 - 엣지 시스템 환경에서 동작하는 분산 백엔드 서비스, 하드웨어 인터페이스 API, 제어 안전장치 및 교통 제어 알고리즘 설계·개발
 - 시뮬레이션 기반 테스트를 통해 교통 제어 알고리즘을 최적화하여 실제 교통 혼잡도를 평균 17~24% 감소
@@ -42,7 +42,6 @@ file: resume.pdf
 
 # 🤖 Technology
 <hr>
-<div id="stack-location"></div>
 ## ➤ Backend Development
 - 다양한 하드웨어 환경(엣지 디바이스, 서버)에서 안정적으로 동작하는 <b class="orange-small">Python 기반 백엔드 시스템</b> 설계 및 개발
 - Python 웹 프레임워크(Django, Flask, FastAPI)를 활용한 <b class="orange-small">RESTful API</b> 설계 및 개발

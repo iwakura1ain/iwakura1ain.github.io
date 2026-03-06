@@ -11,12 +11,12 @@ file: resume-eng.pdf
 
 # 🔎 Introduction
 <hr>
-<br>
+<div id="stack-location"></div>
 - Backend & DevOps Engineer with 2.5 years of experience building reliable, scalable Python-based systems supporting critical public infrastructure.
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
 
-<div id="stack-location"></div>
+
 
 # 👩🏻‍💻 Work Experience
 <hr>
@@ -24,7 +24,7 @@ file: resume-eng.pdf
 <b class="about-num">‣ Smart Traffic Control Solution</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b>average of 17–24%</b>.
-- Deployed and maintained the system in <b>3 different production environments</b>, providing technical support and issue resolution.
+- Deployed and maintained the system in <b>3 different production environments</b> and provided ongoing technical support and maintenance.
 
 <b class="about-num">‣ Patient Disease Prediction Service</b>
 - Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
