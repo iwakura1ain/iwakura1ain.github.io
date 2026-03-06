@@ -82,10 +82,10 @@
 
    const addBullets = () => {
        let h2 = Array.from(document.getElementsByTagName("h2"))
-       h2.map((element) => {element.innerHTML = '<p class="orange">&#8227</p>' + "&nbsp;&nbsp;" + element.innerHTML})
+       h2.map((element) => {element.innerHTML = "&#8227" + "&nbsp;&nbsp;" + element.innerHTML})
 
        let h3 = Array.from(document.getElementsByTagName("h3"))
-       h3.map((element) => {element.innerHTML = "&nbsp;&nbsp;" + '<p class="orange">&#9702</p>' + "&nbsp;&nbsp;" + element.innerHTML})
+       h3.map((element) => {element.innerHTML = "&nbsp;&nbsp;" + "&#9702" + "&nbsp;&nbsp;" + element.innerHTML})
    }
 
    function onLoadFunc() {
