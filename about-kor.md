@@ -61,7 +61,7 @@ file: resume.pdf
 - 사내 하드웨어(테스트 장치, 서버, 특수 하드웨어) 및 개발 툴(GitLab, Samba) 관리 및 운영
 
 
-# 👨‍💻 My Projects <button class="dropdown-button" id="about-projects-toggle" onclick="toggleHide()">↧ Show ↧</button>
+# 💾 My Projects <button class="dropdown-button" id="about-projects-toggle" onclick="toggleHide()">↧ Show ↧</button>
 <hr>
 <div id="about-projects" style="display:none;">
 {% include projects.html %}

@@ -61,7 +61,7 @@ file: resume-eng.pdf
 - Managing internal hardware (eg. test devices, servers, specialized hardware) and support software (eg. Gitlab, Samba).
 
 
-# 👨‍💻 My Projects <button class="dropdown-button" id="about-projects-toggle" onclick="toggleHide()">↧ Show ↧</button>
+# 💾 My Projects <button class="dropdown-button" id="about-projects-toggle" onclick="toggleHide()">↧ Show ↧</button>
 <hr>
 
 
