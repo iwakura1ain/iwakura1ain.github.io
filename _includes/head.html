@@ -65,6 +65,7 @@
        if (language == getLanguage())
 	   return
 
+       redirect(language)
        changeVisibility(language)
 
        sessionStorage.setItem("language", language)
