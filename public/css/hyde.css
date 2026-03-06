@@ -499,6 +499,7 @@ a.sidebar-nav-item:focus {
 
 .tag {
   font-size: 100%;
+  font-weight: bold;
   color: white;
   background-color: #d28445;
   margin-left: 10px;
