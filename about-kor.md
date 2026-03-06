@@ -12,16 +12,16 @@ file: resume.pdf
 # 🔎 Introduction
 <hr>
 <div style="width: 100%; height:12px;"></div>
-- <b>Python 기반 백엔드 개발 및 DevOps 업무를 수행한 2.5년 경력의 <b>Backend & DevOps 엔지니어</b>입니다.</b>
-- <b>Fastapi <b>백엔드 개발</b>, <b>AI 연동</b>, MySQL <b>데이터베이스 관리</b>, <b>하드웨어 시스템 관리</b> 분야에 전문성을 갖추고 있습니다.</b>
-- <b>Jenkins 기반 <b>CI/CD 파이프라인</b> 구축 및 Docker, Kubernetes를 활용한 <b>컨테이너 기반 애플리케이션</b> 배포 경험을 보유하고 있습니다.</b>
-- <b>해외체류 경험이 있어 원어민 레벨로 <b>영어소통</b>이 가능합니다.</b>
+- Python 기반 백엔드 개발 및 DevOps 업무를 수행한 2.5년 경력의 <b>Backend & DevOps 엔지니어</b>입니다.
+- Fastapi <b>백엔드 개발</b>, <b>AI 연동</b>, MySQL <b>데이터베이스 관리</b>, <b>하드웨어 시스템 관리</b> 분야에 전문성을 갖추고 있습니다.
+- Jenkins 기반 <b>CI/CD 파이프라인</b> 구축 및 Docker, Kubernetes를 활용한 <b>컨테이너 기반 애플리케이션</b> 배포 경험을 보유하고 있습니다.
+- 해외체류 경험이 있어 원어민 레벨로 <b>영어소통</b>이 가능합니다.
 <div id="stack-location"></div>
 
 
 # 🤖 Work Experience
 <hr>
-## ➤ Researcher | Neurodigm (2023 - Current)
+## ➤ <b style="color:black; font-size:110%;">Researcher | Neurodigm (2023 - Current)</b>
 <b class="about-num about-message">스마트 교통 제어 솔루션 (Smart Traffic Control Solution)</b>
 - 엣지 시스템 환경에서 동작하는 <b>분산 백엔드 서비스</b>, 하드웨어 인터페이스 API, 제어 안전장치 및 <b>교통 제어 알고리즘</b> 설계·개발
 - 시뮬레이션 기반 테스트를 통해 교통 제어 알고리즘을 최적화하여 실제 교통 혼잡도를 <b>평균 17~24% 감소</b>
