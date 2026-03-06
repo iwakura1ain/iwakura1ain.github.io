@@ -383,10 +383,19 @@ a.sidebar-nav-item:focus {
 
 .dropdown-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .dropdown-wrapper > button{
   width: 50px;
+  border: unset;
+  font-weight: bold;
+  background-color: #d17932;
+  opacity: 0.8;
+}
+
+.dropdown-wrapper > button:hover{
+  opacity: 1;
+  border: unset;
 }
 
 /* portfolio */

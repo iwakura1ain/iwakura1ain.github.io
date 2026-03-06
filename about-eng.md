@@ -67,7 +67,7 @@ file: resume-eng.pdf
 <button id="about-projects-toggle" onclick="toggleHide()">Show ↴</button>
 </div>
 
-<div id="about-projects" >
+<div id="about-projects" style="display:none;">
 {% include projects.html %}
 </div>
 
