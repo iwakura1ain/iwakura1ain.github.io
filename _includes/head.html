@@ -60,6 +60,16 @@
 
    }
 
+   const toggleHide = () => {
+       if (document.getElementById("about-projects-toggle").innerHTML == "Show ↴") {
+           document.getElementById("about-projects").style.display = "block"
+           document.getElementById("about-projects-toggle").innerHTML = "Hide ↰"
+       } else if (document.getElementById("about-projects-toggle").innerHTML == "Hide ↰") {
+           document.getElementById("about-projects").style.display = "none"
+           document.getElementById("about-projects-toggle").innerHTML = "Show ↴"
+       }
+
+   }
 
    const toggleLanguage = (language) => {
        if (language == getLanguage())

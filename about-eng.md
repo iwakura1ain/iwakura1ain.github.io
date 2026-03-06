@@ -62,8 +62,14 @@ file: resume-eng.pdf
 
 
 # 👨‍💻 My Projects
+<div class="dropdown-wrapper">
 <hr>
+<button id="about-projects-toggle" onclick="toggleHide()">Show ↴</button>
+</div>
+
+<div id="about-projects" >
 {% include projects.html %}
+</div>
 
 # 📚 Certification
 <hr>

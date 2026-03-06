@@ -381,6 +381,14 @@ a.sidebar-nav-item:focus {
   margin-bottom: 3px;
 }
 
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-wrapper > button{
+  width: 50px;
+}
+
 /* portfolio */
 
 .portfolio-icon {
