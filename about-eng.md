@@ -25,13 +25,13 @@ file: resume-eng.pdf
 <b class="about-num about-message">- Smart Traffic Control Solution -</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b><a href="https://www.stvnews.kr/news/articleView.html?idxno=13369">average of 17–24%</a></b>.
-- Deployed and maintained the system in <b><a href="https://its.gyeongju.go.kr/its_intro.do">3 different</a> production environments</b> and provided ongoing technical support and maintenance.
+- Deployed and maintained the system in <b><a href="https://its.gyeongju.go.kr/its_intro.do">3 different</a> <a href="https://biz.chosun.com/industry/business-venture/2024/08/15/ZMX6F3634FAQRD65RWBVKF2A4U/">production</a> <a href="https://www.headlinejeju.co.kr/news/articleView.html?idxno=569316">environments</a></b> and provided ongoing technical support and maintenance.
 
 <b class="about-num about-message">- Patient Disease Prediction Service -</b>
 - Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
 - Integrated in-house <b>disease prediction AI models</b>.
 - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
-- Deployed and maintained the system in <b>1 production environment</b> and provided ongoing technical support and maintenance.
+- Deployed and maintained the system in <b><a href="https://www.chosun.com/special/special_section/2025/05/14/AXF2FDHRE5AERMZC2LP2GBV2UY/">1 production environment</a></b> and provided ongoing technical support and maintenance.
 
 <b class="about-num about-message">- Medical Sales Training Chatbot Service -</b>
 - Developed the <b>backend API and integrated ChatGPT-based conversational functionality</b> to support AI-driven training interactions for medical sales personnel.

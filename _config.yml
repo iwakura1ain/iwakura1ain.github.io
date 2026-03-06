@@ -10,7 +10,7 @@ relative_permalinks: false
 # Setup
 title:            1ain
 tagline:          'Present day, present time.'
-description_eng:      "Welcome to iwakura1ain's personal blog. For more info about me, please visit the about page."
+description_eng:      "Welcome to my personal blog. For more info about me, please visit the about page."
 description_kor:      "안녕하세요. 언제나 새로운 기술에 도전하는 개발자 &nbsp;<b>안창언</b>&nbsp;입니다."
 description:          "안녕하세요. 언제나 새로운 기술에 도전하는 개발자 &nbsp;<b>안창언</b>&nbsp;입니다."
 
