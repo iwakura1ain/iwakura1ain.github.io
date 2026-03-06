@@ -21,22 +21,22 @@ file: resume-eng.pdf
 
 # 👩🏻‍💻 Work Experience
 <hr>
-## ➤ <b>Researcher | Neurodigm (2023 - Current)</b>
-<b class="about-num about-message">Smart Traffic Control Solution</b>
+## ➤ <b>Researcher | Neurodigm (2024 - Current)</b>
+<b class="about-num about-message">- Smart Traffic Control Solution -</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
-- <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b>average of 17–24%</b>.
+- <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b><a href="https://www.stvnews.kr/news/articleView.html?idxno=13369">average of 17–24%</a></b>.
 - Deployed and maintained the system in <b>3 different production environments</b> and provided ongoing technical support and maintenance.
 
-<b class="about-num about-message">Patient Disease Prediction Service</b>
+<b class="about-num about-message">- Patient Disease Prediction Service -</b>
 - Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
 - Integrated in-house <b>disease prediction AI models</b>.
 - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
 - Deployed and maintained the system in <b>1 production environment</b> and provided ongoing technical support and maintenance.
 
-<b class="about-num about-message">Medical Sales Training Chatbot Service</b>
+<b class="about-num about-message">- Medical Sales Training Chatbot Service -</b>
 - Developed the <b>backend API and integrated ChatGPT-based conversational functionality</b> to support AI-driven training interactions for medical sales personnel.
 
-<b class="about-num about-message">Solar Power Prediction and Cost Analysis Solution</b>
+<b class="about-num about-message">- Solar Power Prediction and Cost Analysis Solution -</b>
 - Developed <b>backend APIs</b>, core <b>inference logic</b>, and <b>solar panel data integration</b> systems.
 - Integrated in-house <b>solar power prediction AI models</b> to enable energy production forecasting and cost analysis.
 
