@@ -21,7 +21,7 @@ file: resume-eng.pdf
 
 # 👩🏻‍💻 Work Experience
 <hr>
-## ➤ <b style="color:black; font-size:110%;">Researcher | Neurodigm (2024 - Current)</b>
+## ➤ <b style="color:black; font-size:110%; margin-bottom:8px;">Researcher | Neurodigm (2024 - Current)</b>
 <b class="about-num about-message">- Smart Traffic Control Solution -</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b><a href="https://www.stvnews.kr/news/articleView.html?idxno=13369">average of 17–24%</a></b>.
