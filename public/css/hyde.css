@@ -365,6 +365,14 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0px;
 }
 
+.mt-3 {
+  margin-top: 3px;
+}
+
+.mb-3 {
+  margin-bottom: 3px;
+}
+
 /* portfolio */
 
 .portfolio-icon {
