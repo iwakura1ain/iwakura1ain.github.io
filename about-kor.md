@@ -10,12 +10,13 @@ file: resume.pdf
 {% include me-kor.html %}
 
 # 🔎 Introduction
-<hr class="mb-3">
+<hr>
+<div style="width: 100%; height:3px;"></div>
 - Python 기반 백엔드 개발 및 DevOps 업무를 수행한 2.5년 경력의 Backend & DevOps 엔지니어입니다.
 - Fastapi 백엔드 개발, AI 연동, MySQL 데이터베이스 관리, 하드웨어 시스템 관리 분야에 전문성을 갖추고 있습니다.
 - Jenkins 기반 CI/CD 파이프라인 구축 및 Docker, Kubernetes를 활용한 컨테이너 기반 애플리케이션 배포 경험을 보유하고 있습니다.
 - 해외체류 경험이 있어 원어민 레벨로 영어소통이 가능합니다.
-<div id="stack-location mt-3"></div>
+<div id="stack-location"></div>
 
 
 # 🤖 Work Experience

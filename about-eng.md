@@ -10,11 +10,12 @@ file: resume-eng.pdf
 {% include me-eng.html %}
 
 # 🔎 Introduction
-<hr class="mb-3">
+<hr>
+<div style="width: 100%; height:3px;"></div>
 - Backend & DevOps Engineer with 2.5 years of experience building reliable, scalable Python-based systems supporting critical public infrastructure.
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
-<div id="stack-location mt-3"></div>
+<div id="stack-location"></div>
 
 
 
