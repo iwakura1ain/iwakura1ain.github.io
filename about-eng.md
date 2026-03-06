@@ -25,7 +25,7 @@ file: resume-eng.pdf
 <b class="about-num about-message">- Smart Traffic Control Solution -</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b><a href="https://www.stvnews.kr/news/articleView.html?idxno=13369">average of 17–24%</a></b>.
-- Deployed and maintained the system in <b>3 different production environments</b> and provided ongoing technical support and maintenance.
+- Deployed and maintained the system in <b><a href="https://its.gyeongju.go.kr/its_intro.do">3 different</a> production environments</b> and provided ongoing technical support and maintenance.
 
 <b class="about-num about-message">- Patient Disease Prediction Service -</b>
 - Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
