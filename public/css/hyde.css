@@ -383,7 +383,7 @@ a.sidebar-nav-item:focus {
 
 
 .dropdown-button{
-  width: 80px;
+  width: 75px;
   border: unset;
   font-weight: bold;
   background-color: #d28445;
@@ -391,7 +391,7 @@ a.sidebar-nav-item:focus {
   opacity: 0.9;
   color: white;
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 3px;
 }
 

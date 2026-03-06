@@ -69,6 +69,7 @@ file: resume-eng.pdf
 {% include projects.html %}
 </div>
 
+<br>
 # 📚 Certification
 <hr>
 ## &nbsp;<img class="inline icon" src="{{ site.baseurl }}/public/images/toeic.png" alt="TOEIC"> 990점
