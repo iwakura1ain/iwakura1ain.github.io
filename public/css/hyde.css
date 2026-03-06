@@ -381,19 +381,18 @@ a.sidebar-nav-item:focus {
   margin-bottom: 3px;
 }
 
-.dropdown-wrapper {
-  display: flex;
-  flex-direction: row;
-}
-.dropdown-wrapper > button{
+
+.dropdown-button{
   width: 50px;
   border: unset;
   font-weight: bold;
-  background-color: #d17932;
-  opacity: 0.8;
+  background-color: #d28445;
+  border-radius: 3%;
+  opacity: 0.9;
+  color: white;
 }
 
-.dropdown-wrapper > button:hover{
+.dropdown-button:hover{
   opacity: 1;
   border: unset;
 }
