@@ -11,7 +11,7 @@ file: resume-eng.pdf
 
 # 🔎 Introduction
 <hr>
-<div style="width: 100%; height:3px;"></div>
+<div style="width: 100%; height:8px;"></div>
 - Backend & DevOps Engineer with 2.5 years of experience building reliable, scalable Python-based systems supporting critical public infrastructure.
 - Specialized in backend development, AI integration, database management, and hardware systems management.
 - Experienced in designing CI/CD pipelines and deploying containerized applications using Docker and Kubernetes to deliver production-ready solutions.
@@ -22,21 +22,21 @@ file: resume-eng.pdf
 # 👩🏻‍💻 Work Experience
 <hr>
 ## ➤ <b>Researcher | Neurodigm (2023 - Current)</b>
-<b class="about-num">‣ Smart Traffic Control Solution</b>
+<b class="about-num message">Smart Traffic Control Solution</b>
 - Developed <b>distributed backend services</b>, specialized <b>hardware interface APIs</b>, control safety mechanisms, and <b>traffic control algorithms</b> deployed on edge systems.
 - <b>Optimized traffic control algorithms</b> through simulation, reducing real-world traffic congestion by an <b>average of 17–24%</b>.
 - Deployed and maintained the system in <b>3 different production environments</b> and provided ongoing technical support and maintenance.
 
-<b class="about-num">‣ Patient Disease Prediction Service</b>
+<b class="about-num message">Patient Disease Prediction Service</b>
 - Developed <b>backend APIs</b>, core <b>business logic</b>, and automated <b>result-generation</b> modules.
 - Integrated in-house <b>disease prediction AI models</b>.
 - Designed and maintained CI/CD pipelines to support local deployment, testing, and system validation.
 - Deployed and maintained the system in <b>1 production environment</b> and provided ongoing technical support and maintenance.
 
-<b class="about-num">‣ Medical Sales Training Chatbot Service</b>
+<b class="about-num message">Medical Sales Training Chatbot Service</b>
 - Developed the <b>backend API and integrated ChatGPT-based conversational functionality</b> to support AI-driven training interactions for medical sales personnel.
 
-<b class="about-num">‣ Solar Power Prediction and Cost Analysis Solution</b>
+<b class="about-num message">Solar Power Prediction and Cost Analysis Solution</b>
 - Developed <b>backend APIs</b>, core <b>inference logic</b>, and <b>solar panel data integration</b> systems.
 - Integrated in-house <b>solar power prediction AI models</b> to enable energy production forecasting and cost analysis.
 
