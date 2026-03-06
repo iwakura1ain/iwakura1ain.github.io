@@ -25,7 +25,7 @@ live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazo
 
 ## 링크
 
--   **LIVE** : <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
+<!-- -   **LIVE** : <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a> -->
 -   **GITHUB** : <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar></a>
 
 

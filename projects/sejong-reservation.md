@@ -14,7 +14,7 @@ desc: |
    <li><b>회원제</b>로 운영이 되며 회원등급별로 페이지별 권한과 관리 기능을 다르게 하여 제작었다.</li>
    <li>Vue를 사용한 반응형 웹페이지를 만들었다.</li>
    </ul>
-categories: html css js vue microservice flask flask-restx mariadb github-actions CI/CD docker docker-compose docker-swarm 
+categories: html css js vue microservice flask flask-restx mariadb github-actions CI/CD docker docker-compose docker-swarm
 repo: https://github.com/iwakura1ain/sejong-reservation
 live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amazonaws.com
 ---
@@ -28,7 +28,7 @@ live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amaz
 
 ## 링크
 
--   **LIVE** : <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a>
+<!-- -   **LIVE** : <a href="{{ site.baseurl }}/redirect/sejong-reservation/">{{ site.baseurl }}/redirect/sejong-reservation/</a> -->
 -   **GITHUB** : <a href="<https://github.com/iwakura1ain/sejong-reservation>"><https://github.com/iwakura1ain/sejong-reservation></a>
 
 
@@ -46,7 +46,7 @@ live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amaz
 ## 서비스별 데이터 독립화
 
 -   SqlAlchemy ORM으로 개발을 진행했으나, 데이터 스키마는 한곳에서 관리를 하는 것이 옳다고 생각했다.
-    
+
         그러나 ORM을 사용하게 되면 모델을 개별적으로 정의해야 되는 문제점이 발생했다.
 
 
@@ -54,15 +54,15 @@ live: https://sejong-LoadB-vkR3OU14tbdc-cfac865726bae2d2.elb.ap-southeast-2.amaz
 
 -   SqlAlchemy Core를 사용해 **스키마를 각 서비스별로 reflect해 모델 정의 없이 사용** 하는 기능을 만들었다.
 -   **모든 서비스 아래로 상속** 시켜 프로젝트 전체에서 사용했다.
-    
+
     <br>
 
 
 ## 초기 통합 테스팅 시 브랜치 관리
 
 -   서비스별로 브랜치를 따로 관리하여 개발 진행했다.
--   통합과정에서 머지를 먼저 하지 않고 각 브랜치별 도커 컨테이너를 생성하여 테스팅을 시도했다. 
-    
+-   통합과정에서 머지를 먼저 하지 않고 각 브랜치별 도커 컨테이너를 생성하여 테스팅을 시도했다.
+
         팀원간 서비스별 버전이 엇갈리는 문제점이 발생했다.
 
 
