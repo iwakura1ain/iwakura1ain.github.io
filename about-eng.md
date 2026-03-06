@@ -45,18 +45,18 @@ file: resume-eng.pdf
 <hr>
 ## ➤ Backend Development
 - Designing and developing reliable, scalable backend systems running on a variety of different hardware (eg. edge devices, servers).
-- Building RESTful APIs using <b class="orange-small">Python</b> and <b class="orange-small">Web Frameworks</b> (eg. Django, Flask, Fastapi).
-- Integrating internal and external <b class="orange-small">AI services</b> into software control flow.
-- Coordinating and implementing <b class="orange-small">safety measures</b> for systems running on critical public infrastructure.
+- Building RESTful APIs using <b>Python</b> and <b>Web Frameworks</b> (eg. Django, Flask, Fastapi).
+- Integrating internal and external <b>AI services</b> into software control flow.
+- Coordinating and implementing <b>safety measures</b> for systems running on critical public infrastructure.
 - Creating APIs to interface with specialized hardware.
 
 ## ➤ Database Management
-- Writing <b class="orange-small">optimized SQL queries</b> for high-performance applications
+- Writing <b>optimized SQL queries</b> for high-performance applications
 - Managing setup, migrations, backups, and data integrity for databases (eg. Mysql, MinIO, Redis).
 
 ## ➤ DevOps, Deployment, and Management
-- <b class="orange-small">Containerizing applications</b> with Docker and orchestrating deployments using Docker Compose and Kubernetes
-- Designing and implementing <b class="orange-small">CI/CD pipelines</b> using Jenkins.
+- <b>Containerizing applications</b> with Docker and orchestrating deployments using Docker Compose and Kubernetes
+- Designing and implementing <b>CI/CD pipelines</b> using Jenkins.
 - Managing hardware & software configurations for deployment in private network production environments.
 - Managing internal hardware (eg. test devices, servers, specialized hardware) and support software (eg. Gitlab, Samba).
 
