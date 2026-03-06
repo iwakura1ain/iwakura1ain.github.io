@@ -28,7 +28,7 @@ file: resume.pdf
 - <b><a href="https://biz.chosun.com/industry/business-venture/2024/08/15/ZMX6F3634FAQRD65RWBVKF2A4U/">부산</a>, <a href="https://its.gyeongju.go.kr/its_intro.do">경주</a>, <a href="https://www.headlinejeju.co.kr/news/articleView.html?idxno=569316">제주</a></b>에 시스템 구축 및 운영, 또한 기술 지원 및 장애 대응 담당
 
 <b class="about-num about-message">- 환자 질병 예측 서비스 (Patient Disease Prediction Service) -</b>
-- <b>백엔드 API/b>, 핵심 <b>비즈니스 로직</b>, 그리고 결과물 생성 모듈 설계·개발
+- <b>백엔드 API</b>, 핵심 <b>비즈니스 로직</b>, 그리고 결과물 생성 모듈 설계·개발
 - <b>질병 예측 모델 연동</b> 및 서비스 로직 통합
 - 테스트 및 시스템 검증을 위한 로컬 CI/CD 배포 파이프라인 설계 및 운영
 - <b><a href="https://www.chosun.com/special/special_section/2025/05/14/AXF2FDHRE5AERMZC2LP2GBV2UY/">1개의 병원</a></b>에 시스템 구축 및 운영, 또한 지속적인 기술 지원 및 유지보수 담당
