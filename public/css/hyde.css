@@ -605,6 +605,8 @@ a.sidebar-nav-item:focus {
 
 .me-wrapper > ul{
   margin-top: 7px;
+  margin-bottom:0px;
+
 }
 
 .me-wrapper > img{
