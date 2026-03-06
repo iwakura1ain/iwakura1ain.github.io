@@ -390,7 +390,8 @@ a.sidebar-nav-item:focus {
   border-radius: 3%;
   opacity: 0.9;
   color: white;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .dropdown-button:hover{
