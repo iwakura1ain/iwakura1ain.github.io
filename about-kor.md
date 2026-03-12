@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-file: resume.pdf
+file: resume-kor.pdf
 ---
 
 
