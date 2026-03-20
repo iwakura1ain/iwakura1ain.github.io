@@ -5,12 +5,12 @@ type: cli
 image: fuzzit-help.png
 short: <b>CLI Security Scanner for Detecting Injection and Brute Force Vulnerabilities in Web Services</b><br>
 desc: |
-<b>&nbsp;CLI Security Scanner for Detecting Injection and Brute Force Vulnerabilities in Web Services</b><br>
-<ul>
-<li>Developed a CLI-based security tool inspired by CTF challenges to automate <b>web vulnerability scanning</b></li>
-<li>Implemented GET, POST, and COOKIE injection attacks and automated URL scanning</li>
-<li>Added <b>automatic payload generation</b> and <b>asynchronous scanning</b> for faster vulnerability detection</li>
-</ul>
+	<b>&nbsp;CLI Security Scanner for Detecting Injection and Brute Force Vulnerabilities in Web Services</b><br>
+	<ul>
+	<li>Developed a CLI-based security tool inspired by CTF challenges to automate <b>web vulnerability scanning</b></li>
+	<li>Implemented GET, POST, and COOKIE injection attacks and automated URL scanning</li>
+	<li>Added <b>automatic payload generation</b> and <b>asynchronous scanning</b> for faster vulnerability detection</li>
+	</ul>
 categories: cli python multithreading scanner injection brute-force cybersecurity 
 repo: https://github.com/iwakura1ain/Fuzzit-Web-Scanner
 ---

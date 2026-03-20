@@ -5,15 +5,15 @@ type: web
 image: sejong-reservation.png
 short: <b>&nbsp;학교 내 회의실 예약을 위한 웹서비스</b><br>
 desc: |
-<b>&nbsp;Web Service for Campus Meeting Room Reservation</b><br>
-<ul>
-<li>Developed a web-based reservation system to replace manual meeting room booking</li>
-<li>Designed the system using a horizontally scalable <b>microservices architecture (MSA)</b> to improve reliability over the existing overloaded school system</li>
-<li>Deployed services using <b>Docker Swarm</b> for easier operation and maintenance in a real production environment</li>
-<li>Introduced a <b>CI/CD pipeline</b> with GitHub Actions to enable automated deployment and easier updates</li>
-<li>Implemented a <b>role-based membership system</b> with different permissions and admin features per user level</li>
-<li>Built responsive web pages using Vue.js</li>
-</ul>
+	<b>&nbsp;Web Service for Campus Meeting Room Reservation</b><br>
+	<ul>
+	<li>Developed a web-based reservation system to replace manual meeting room booking</li>
+	<li>Designed the system using a horizontally scalable <b>microservices architecture (MSA)</b> to improve reliability over the existing overloaded school system</li>
+	<li>Deployed services using <b>Docker Swarm</b> for easier operation and maintenance in a real production environment</li>
+	<li>Introduced a <b>CI/CD pipeline</b> with GitHub Actions to enable automated deployment and easier updates</li>
+	<li>Implemented a <b>role-based membership system</b> with different permissions and admin features per user level</li>
+	<li>Built responsive web pages using Vue.js</li>
+	</ul>
 categories: html css js vue microservice flask flask-restx mariadb github-actions CI/CD docker docker-compose docker-swarm 
 repo: https://github.com/iwakura1ain/sejong-reservation
 ---

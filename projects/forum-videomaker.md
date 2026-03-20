@@ -5,13 +5,13 @@ type: cli
 image: videomaker-video.png
 short: <b>Program for Generating YouTube Videos from Crawled Reddit Comments</b><br>
 desc: |
-   <b>&nbsp;Program for Generating YouTube Videos from Crawled Reddit Comments</b><br>
-<ul>
-<li>Inspired by meme-style video channels that compile Reddit content into short videos</li>
-<li>Used <b>Selenium</b> to monitor Reddit and capture comments and images automatically</li>
-<li>Generated <b>video clips and narration</b> using MoviePy and Google TTS</li>
-<li>Implemented automatic upload using the YouTube API</li>
-</ul>
+	<b>&nbsp;Program for Generating YouTube Videos from Crawled Reddit Comments</b><br>
+	<ul>
+	<li>Inspired by meme-style video channels that compile Reddit content into short videos</li>
+	<li>Used <b>Selenium</b> to monitor Reddit and capture comments and images automatically</li>
+	<li>Generated <b>video clips and narration</b> using MoviePy and Google TTS</li>
+	<li>Implemented automatic upload using the YouTube API</li>
+	</ul>
 categories: cli video python selenium crawling youtube
 repo: https://github.com/iwakura1ain/forum-video-maker
 live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr

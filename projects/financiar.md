@@ -5,15 +5,14 @@ type: web
 image: financiar.png
 short: <b>&nbsp;Historical Stock Data Web Service</b><br>
 desc: |
-<b>&nbsp;Historical Stock Data Web Service</b><br>
-<ul>
-<li>Implemented sector/name-based search for S&P 500 stocks and provided price data by crawling Yahoo Finance with caching</li>
-<li>Improved graph loading performance by introducing Redis caching to mitigate crawling latency</li>
-<li>Built infinite-scroll stock pages and interactive charts to enhance user engagement</li>
-</ul>   
+	<b>&nbsp;Historical Stock Data Web Service</b><br>
+	<ul>
+	<li>Implemented sector/name-based search for S&P 500 stocks and provided price data by crawling Yahoo Finance with caching</li>
+	<li>Improved graph loading performance by introducing Redis caching to mitigate crawling latency</li>
+	<li>Built infinite-scroll stock pages and interactive charts to enhance user engagement</li>
+	</ul>
 categories: finance html css js react django drf pandas selenium redis mariadb docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
-live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazonaws.com:5173/
 ---
 
 
