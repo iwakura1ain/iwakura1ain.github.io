@@ -3,16 +3,17 @@ title: Financiar
 layout: project
 type: web
 image: financiar.png
-short: <b>&nbsp;Historical Stock Data Web Service</b><br>
+short: <b>&nbsp;과거 주식 데이터를 조회할 수 있는 웹서비스</b><br>
 desc: |
-	<b>&nbsp;Historical Stock Data Web Service</b><br>
-	<ul>
-	<li>Implemented sector/name-based search for S&P 500 stocks and provided price data by crawling Yahoo Finance with caching</li>
-	<li>Improved graph loading performance by introducing Redis caching to mitigate crawling latency</li>
-	<li>Built infinite-scroll stock pages and interactive charts to enhance user engagement</li>
-	</ul>
+   <b>&nbsp;과거 주식 데이터를 조회할 수 있는 웹서비스</b><br>
+   <ul>
+   <li>S&P500 주식을 대상으로 분야별/이름별 <b>검색이 가능</b>하며, 주가 자체는 Yahoo Finance를 <b>크롤링하여 캐싱 후 제공</b>된다.</li>
+   <li>크롤링 속도 때문에 그래프 업데이트 속도가 저하되어 <b>redis cache</b>를 도입해 개선했다.</li>
+   <li>무한스크롤이 가능한 종목 페이지와 상호작용이 풍부한 <b>인터랙티브 그래프</b>로 사용자의 참여를 유도했다.</li>
+   </ul>
 categories: finance html css js react django drf pandas selenium redis mariadb docker docker-compose
 repo: https://github.com/iwakura1ain/Financiar
+live: http://financ-loadb-h39ibtrlr5el-32ad447233d6e4ff.elb.ap-southeast-2.amazonaws.com:5173/
 ---
 
 
@@ -24,8 +25,8 @@ repo: https://github.com/iwakura1ain/Financiar
 
 ## 링크
 
--   **LIVE** : <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a>
--   **GITHUB** : <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar</a>>
+<!-- -   **LIVE** : <a href="{{ site.baseurl }}/redirect/financiar/">{{ site.baseurl }}/redirect/financiar/</a> -->
+-   **GITHUB** : <a href="<https://github.com/iwakura1ain/Financiar>"><https://github.com/iwakura1ain/Financiar></a>
 
 
 ## 인원과 역할
