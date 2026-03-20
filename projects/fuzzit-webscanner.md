@@ -2,7 +2,6 @@
 title: Fuzzit Web Scanner
 layout: project
 type: cli
-desc: 웹서비스가 Injection 또는 Brute Force 공격에 취약한지 검사하는 CLI 보안 프로그램
 image: fuzzit-help.png
 short: <b>CLI Security Scanner for Detecting Injection and Brute Force Vulnerabilities in Web Services</b><br>
 desc: |

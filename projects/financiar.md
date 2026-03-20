@@ -3,7 +3,7 @@ title: Financiar
 layout: project
 type: web
 image: financiar.png
-short: <b>&nbsp;과거 주식 데이터를 조회할 수 있는 웹서비스</b><br>
+short: <b>&nbsp;Historical Stock Data Web Service</b><br>
 desc: |
 <b>&nbsp;Historical Stock Data Web Service</b><br>
 <ul>
