@@ -3,15 +3,15 @@ title: Forum Video Maker
 layout: project
 type: cli
 image: videomaker-video.png
-short: <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
+short: <b>Program for Generating YouTube Videos from Crawled Reddit Comments</b><br>
 desc: |
-   <b>Reddit 댓글들을 크롤링한 후 유투브 영상으로 조합하는 프로그램</b><br>
-   <ul>
-   <li>밈 형식의 동영상을 생성하는 채널들에 영감을 받아 제작했다.</li>
-   <li><b>Selenium</b>을 사용하여 Reddit을 모니터링 하며 댓글 내용과 사진을 캡처한다.</li>
-   <li>MoviePy와 Google TTS를 사용해 <b>영상과 대사를 생성</b>한다.</li>
-   <li>유투브 API를 사용해 자동 업로드를 구현했다.</li>
-   </ul>
+   <b>&nbsp;Program for Generating YouTube Videos from Crawled Reddit Comments</b><br>
+<ul>
+<li>Inspired by meme-style video channels that compile Reddit content into short videos</li>
+<li>Used <b>Selenium</b> to monitor Reddit and capture comments and images automatically</li>
+<li>Generated <b>video clips and narration</b> using MoviePy and Google TTS</li>
+<li>Implemented automatic upload using the YouTube API</li>
+</ul>
 categories: cli video python selenium crawling youtube
 repo: https://github.com/iwakura1ain/forum-video-maker
 live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
@@ -26,8 +26,8 @@ live: https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr
 
 ## 링크
 
--   **LIVE** : <a href="<https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr>"><https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr></a>
--   **GITHUB** : <a href="<https://github.com/iwakura1ain/forum-video-maker>"><https://github.com/iwakura1ain/forum-video-maker></a>
+-   **LIVE** : <a href="<https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr>"><https://www.youtube.com/playlist?list=PLRHUNQ32SoCL2vknJkh5J91F2FszwYJgr</a>>
+-   **GITHUB** : <a href="<https://github.com/iwakura1ain/forum-video-maker>"><https://github.com/iwakura1ain/forum-video-maker</a>>
 
 
 ## 인원과 역할
